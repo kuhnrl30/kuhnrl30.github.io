@@ -4,7 +4,6 @@ title: Resume
 ---
 
 <h1>{{ page.title }}</h1>
-	<ul class="cv">
 
 ###SUMMARY OF EXPERIENCE
 
