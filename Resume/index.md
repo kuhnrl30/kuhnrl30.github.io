@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resume
-resume: active
+Resume: active
 projects: passive
 blog: passive
 contact: passive
