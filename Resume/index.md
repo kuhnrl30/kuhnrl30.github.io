@@ -8,12 +8,6 @@ contact: passive
 description: Resume for Ryan Kuhn, Finance Professional.
 ---
 
-
----
-layout: default
-title: Resume
----
-
 ###SUMMARY OF EXPERIENCE
 
 Experienced auditor with strong technical, analytical and leadership skills. 
