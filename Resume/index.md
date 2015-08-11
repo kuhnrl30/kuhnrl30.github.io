@@ -2,7 +2,7 @@
 layout: default
 title: Resume
 Resume: active
-projects: passive
+Projects: passive
 blog: passive
 contact: passive
 description: Resume for Ryan Kuhn, Finance Professional.
