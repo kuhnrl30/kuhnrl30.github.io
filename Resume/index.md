@@ -73,9 +73,9 @@ Result:  Developed a network with other agency offices to facilitate sharing bes
 Result: Marines were ready for deployments and prepared to assume future leadership roles.
 
 ###EDUCATION
-**Rutgers, the State University of New Jersey** Newark, NJ Coursework Completed August, 2015
+**Rutgers, the State University of New Jersey** Newark, NJ Coursework Completed August, 2015  
 Masters of Accountancy- Financial Accounting, GPA 3.333 
 
-**University of Wisconsin- Whitewater**, WI August, 2010
+**University of Wisconsin- Whitewater**, WI August, 2010  
 Bachelor of Business Administration – Accounting, GPA: 3.625
 
