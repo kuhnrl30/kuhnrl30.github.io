@@ -1,2 +1,3 @@
 name: Ryan Kuhn, CPA
-	markdown: kramdown
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
