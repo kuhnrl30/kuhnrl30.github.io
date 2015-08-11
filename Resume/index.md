@@ -3,8 +3,6 @@ layout: Default
 title: Resume
 ---
 
-<h1>{{ page.title }}</h1>
-
 ###SUMMARY OF EXPERIENCE
 
 Experienced auditor with strong technical, analytical and leadership skills. 
