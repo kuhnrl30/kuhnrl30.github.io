@@ -4,6 +4,7 @@ title: Resume
 Resume: active
 Projects: passive
 blog: passive
+MOOCS: passive
 contact: passive
 description: Resume for Ryan Kuhn, Finance Professional.
 ---
