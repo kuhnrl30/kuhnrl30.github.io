@@ -1,3 +1,14 @@
+---
+layout: default
+title: MOOCs
+Resume: passive
+Projects: passive
+blog: passive
+MOOCs: active
+contact: passive
+description: Massive Open Online Courses completed by Ryan Kuhn, Finance Professional.
+---
+
 This is the record of the courses I have completed during my open-source education on data analytics. 
 The resources I've used include Massive Open Online Courses (MOOCs) on Coursera, edX, and some of the best universities. 
 Of course, there are few substitutes for what you can learn from practice so I've applied the eduction to a few projects and competitions. 
