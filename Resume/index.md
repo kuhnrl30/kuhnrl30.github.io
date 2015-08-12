@@ -21,7 +21,7 @@ Certified Public Accountant (CPA), State of New Jersey September, 2013
 Certified Management Accountant (CMA) August, 2012  
 
 ###FINANCE EXPERIENCE  
-**Quest Diagnostics Inc** Madison, NJ November 2013 to Present
+**Quest Diagnostics Inc** Madison, NJ November 2013 to Present  
 Building financial models to evaluate deals and ensure they are profitable. 
 
 - Developed a database application to manage current health plan negotiations. 
@@ -36,7 +36,7 @@ Result: The analysis was used to plan a 2-part audit of controls around the writ
 Invited to provide data systems and analytics support for this audit.
 
 ###INTERNAL AUDIT EXPERIENCE
-**Quest Diagnostics Inc** Lyndhurst, NJ November 2013 to December, 2015
+**Quest Diagnostics Inc** Lyndhurst, NJ November 2013 to December, 2015  
 Work collaboratively across all levels of the organization to perform varying types of reviews including operational, compliance, and financial audits.
 
 - **Lead a team** of auditing an international sales unit for compliance with Foreign Corrupt Practices Act. 
@@ -57,7 +57,7 @@ Result: Management is kept informed of audit status and recommendations are pers
 Projects include redesigning the year end performance evaluation criteria for staff and senior auditors.
 
 ###CONTRACT AUDIT EXPERIENCE
-**Defense Contract Audit Agency** Morristown, NJ August, 2010 to November, 2013
+**Defense Contract Audit Agency** Morristown, NJ August, 2010 to November, 2013  
 Examine contractor accounting practices for compliance with Department of Defense procurement regulations to ensure taxpayer dollars are spent on reasonable contract prices. 
 
 - **Lead a team of auditors** in large and complex assignments. 
