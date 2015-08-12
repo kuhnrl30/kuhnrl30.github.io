@@ -4,15 +4,15 @@ title: Resume
 Resume: active
 Projects: passive
 blog: passive
-MOOCS: passive
+moocs: passive
 contact: passive
 description: Resume for Ryan Kuhn, Finance Professional.
 ---
 
 ###SUMMARY OF EXPERIENCE
 
-Experienced auditor with strong technical, analytical and leadership skills. 
-Broad exposure earned during military, contract audit and internal audit experiences has resulted in strong interpersonal skills, learning agility, and a drive for results.  
+Experienced finance professional with strong technical, analytical and leadership skills. 
+Broad exposure earned during military, audit, and sales finance experiences has resulted in strong interpersonal skills, learning agility, and a drive for results.  
 
 ###PROFESSIONAL CERTIFICATIONS  
 
@@ -24,16 +24,16 @@ Certified Management Accountant (CMA) August, 2012
 **Quest Diagnostics Inc** Madison, NJ November 2013 to Present  
 Building financial models to evaluate deals and ensure they are profitable. 
 
-- Developed a database application to manage current health plan negotiations. 
+- **Developed a database application** to manage current health plan negotiations. 
 Result: The application eliminates 4 hours of manual reporting effort each month through automation and enables ad-hoc analyses by putting the information at the analyst’s fingertips.  
-- Interviewed multiple finance groups as part of the Financial Modeling Project. 
-Summarized the key similarities and differences in modeling approaches and identified best practices. 
-When completed, the resulting recommendations will drive consistency across the organization. 
-- Refreshed the cost data used to build financial models by deconstructing the prior model and coordinating with a cross-functional team to understand changes in the organization’s cost structure. 
+- Refreshed the cost data used to build financial models by deconstructing the prior model and **coordinating with a cross-functional team** to understand changes in the organization’s cost structure. 
 Result: Health plan deal will be based on the most current and accurate information.  
 - Performed analytics on company-wide revenue write-offs for indigent patients and reported the result to internal audit. 
 Result: The analysis was used to plan a 2-part audit of controls around the write-offs. 
-Invited to provide data systems and analytics support for this audit.
+Invited to **provide data systems and analytics support** for this audit.
+- Interviewed multiple finance groups as part of a project for the CFO. 
+Summarized the key similarities and differences in modeling approaches across finance groups and identified best practices. 
+When completed, the resulting **recommendations will drive consistency** across the organization. 
 
 ###INTERNAL AUDIT EXPERIENCE
 **Quest Diagnostics Inc** Lyndhurst, NJ November 2013 to December, 2015  
