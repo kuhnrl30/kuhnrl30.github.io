@@ -17,15 +17,15 @@ This is how I live my goal of lifelong learning and continuous improvement.
 ### Data Science Specialization  
 [Coursera and John Hopkins University](https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage)  
 This specialization track covers the concepts and tools needed throughout the entire data science pipeline, including: programming concepts, data munging, data visualization, publishing the analysis, statisics, and usable data products. 
-The specialization had 9 courses and culminates with a capstone project with [Swiftkey](http://swiftkey.com/en/)
+The specialization had 9 courses and culminates with a capstone project with [Swiftkey](http://swiftkey.com/en/).
 
-- Data Scientists Tool Box, <a href="../certs/1 Data Scientist Toolbox.pdf" target="_blank">Verified Certificate</a>
+- Data Scientist's Tool Box, <a href="../certs/1 Data Scientist Toolbox.pdf" target="_blank">Verified Certificate</a>
 - R Programming, <a href="../certs/2 R Programming.pdf" target="_blank">Verified Certificate</a>
 - Getting and Cleaning Data, <a href="../certs/3 Get and Cleaning Data.pdf" target="_blank">Verified Certificate</a>
 - Exploratory Data Analytics, <a href="../certs/4 Exploratory Data Analysis.pdf" target="_blank">Verified Certificate</a>
 - Reproducible Research, <a href="../certs/5 Reproducible Research.pdf" target="_blank">Verified Certificate</a>
 - Statistical Inference, <a href="../certs/6 Statistical Inference.pdf" target="_blank">Verified Certificate</a>
-- Data Products *In Progress*
+- Developing Data Products *In Progress*
 
 
 ### Data Analytics

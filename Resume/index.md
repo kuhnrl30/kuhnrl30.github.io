@@ -80,7 +80,7 @@ Result: Marines were ready for deployments and prepared to assume future leaders
 
 ###EDUCATION
 **Rutgers, the State University of New Jersey** Newark, NJ Coursework Completed August, 2015  
-Masters of Accountancy- Financial Accounting, GPA 3.333 
+Masters of Accountancy- Financial Accounting, GPA 3.429 
 
 **University of Wisconsin- Whitewater**, WI August, 2010  
 Bachelor of Business Administration – Accounting, GPA: 3.625
