@@ -23,7 +23,11 @@ Therefore, this was an exercise in rapid development.
 The model I developed was simple yet quite effective; I finished in the 51st percentile  
   
 - **Random Acts of Pizza**  
-[Kaggle](http://www.kaggle.com/c/random-acts-of-pizza), <a href="../writeups/RAOP.html">Writeup --In progress</a>  
+Reddit had a discussion group where people can ask others to buy them pizza. 
+The goal of this [Kaggle](http://www.kaggle.com/c/random-acts-of-pizza) competition is to predict whether a request would be successful and someone would buy the requester pizza. 
+This competition afforded me the opportunity to learn how to work with JSON formatted data and how to use Classification And Regression Trees (CART). 
+I found this new method is incredibly effective for classification problems provided the model is properly tuned. 
+I started documenting my analysis <a href="../writeups/RAOP.html">here</a> but its still a work in progress.  
   
 - **Predicting dropouts in MOOC**  
 The objective of the [KDD Cup 2015](https://kddcup2015.com/submission-rank.html) was to predict if a student would drop out from a MOOC in the next 10 days. 
@@ -31,7 +35,11 @@ The dataset included distinct datapoints on course resources from multiple MOOCs
 I had never setup parallel processing before so I used this competition to work with the doParrallel package. 
 
 - **Africa Soil Property Prediction**  
-This competition was also hosted by [Kaggle](http://www.kaggle.com/c/afsis-soil-properties).  
+The objective of this [Kaggle](http://www.kaggle.com/c/afsis-soil-properties) was to predict numerical soil properties from spectrometer readings.  
+The dataset had several hundred variables to predict 4 estimands so I used this competition to work with dimension reduction techniques. 
+I was able to implement both Support Vector Machines (SVM) and Principle Component Analysis (PCA) methods in my models. 
+Unfortunately, pure motivation wasn't enough in this challenge; it required domain knowledge to be successful. 
+I still can't understand the soil science behind this competition but it was fun to work with! 
     
 - **Titanic: Machine Learning from Disaster**  
 This was my first machine learning competition where I cut my teeth with R. 
