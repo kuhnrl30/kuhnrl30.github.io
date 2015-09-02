@@ -1,4 +1,4 @@
----
+	---
 layout: default
 title: MOOCs
 Resume: passive
@@ -16,8 +16,9 @@ This is how I live my goal of lifelong learning and continuous improvement.
 
 ### Data Science Specialization  
 [Coursera and John Hopkins University](https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage)  
-This specialization track covers the concepts and tools needed throughout the entire data science pipeline, including: programming concepts, data munging, data visualization, publishing the analysis, statisics, and usable data products. 
-The specialization had 9 courses and culminates with a capstone project with [Swiftkey](http://swiftkey.com/en/).
+This specialization track covers the concepts and tools needed throughout the entire data science pipeline including: programming concepts, data munging, data visualization, publishing the analysis, statisics, and usable data products. 
+The specialization had 9 courses and culminates with a capstone project with [Swiftkey](http://swiftkey.com/en/). 
+The primary tools used are R, Githun, and RPubs.
 
 - Data Scientist's Tool Box, <a href="../certs/1 Data Scientist Toolbox.pdf" target="_blank">Verified Certificate</a>
 - R Programming, <a href="../certs/2 R Programming.pdf" target="_blank">Verified Certificate</a>
@@ -25,7 +26,7 @@ The specialization had 9 courses and culminates with a capstone project with [Sw
 - Exploratory Data Analytics, <a href="../certs/4 Exploratory Data Analysis.pdf" target="_blank">Verified Certificate</a>
 - Reproducible Research, <a href="../certs/5 Reproducible Research.pdf" target="_blank">Verified Certificate</a>
 - Statistical Inference, <a href="../certs/6 Statistical Inference.pdf" target="_blank">Verified Certificate</a>
-- Developing Data Products *In Progress*
+- Developing Data Products <a href="../certs/9 Developing Data Products.pdf" target="_blank">Verified Certificate</a>
 
 
 ### Data Analytics
@@ -39,7 +40,8 @@ The specialization had 9 courses and culminates with a capstone project with [Sw
 - Data Mining with Weka [Course / University of Waikato](https://weka.waikato.ac.nz/dataminingwithweka/preview),  <a href="../certs/d Data Mining with Weka.pdf" target="_blank">Certificate</a>
 - Applied Data Science: An Intro [Course / Syracuse University](https://ischool.syr.edu/future/cas/applieddatasciencemooc.aspx), <a href="../certs/b Applied Data Science.pdf" target="_blank">Certificate</a>
 - C Programming Absolute Beginner's Guide [Book / Perry, Greg](http://www.amazon.com/Programming-Absolute-Beginners-Guide-Edition/dp/0789751984) 
-- Advent of the Algorithm [Book / Berlinski, David](http://books.google.com/books/about/The_Advent_of_the_Algorithm.html?id=gCswb92k74QC)  
+- Advent of the Algorithm [Book / Berlinski, David](http://books.google.com/books/about/The_Advent_of_the_Algorithm.html?id=gCswb92k74QC)
+- Machine Learning [Coursera / Stanford](https://www.coursera.org/learn/machine-learning/home/welcome) *In Progress*
 
 ### Math and Statistics
 - Calculus I [Coursera / Ohio State University](https://www.coursera.org/learn/calculus1), <a href="../certs/c Calculus I.pdf" target="_blank">Certificate</a>
