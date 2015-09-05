@@ -18,7 +18,7 @@ This is how I live my goal of lifelong learning and continuous improvement.
 [Coursera and John Hopkins University](https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage)  
 This specialization track covers the concepts and tools needed throughout the entire data science pipeline including: programming concepts, data munging, data visualization, publishing the analysis, statisics, and usable data products. 
 The specialization had 9 courses and culminates with a capstone project with [Swiftkey](http://swiftkey.com/en/). 
-The primary tools used are R, Githun, and RPubs.
+The primary tools used are R, GitHub, and RPubs.
 
 - Data Scientist's Tool Box, <a href="../certs/1 Data Scientist Toolbox.pdf" target="_blank">Verified Certificate</a>
 - R Programming, <a href="../certs/2 R Programming.pdf" target="_blank">Verified Certificate</a>

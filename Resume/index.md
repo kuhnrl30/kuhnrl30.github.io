@@ -23,9 +23,12 @@ Certified Management Accountant (CMA) August, 2012
 ###FINANCE EXPERIENCE  
 **Quest Diagnostics Inc** Madison, NJ November 2013 to Present  
 Building financial models to evaluate deals and ensure they are profitable. 
+Provide financial insights to account executives to maximize the value from the deal. 
 
 - **Developed a database application** to manage current health plan negotiations. 
 Result: The application eliminates 4 hours of manual reporting effort each month through automation and enables ad-hoc analyses by putting the information at the analyst’s fingertips.  
+- **Developed dashboard reporting** of strategic pricing initiatives which was delivered to senior executives. 
+Result: Management received actionable insights on success rates enabling them to control the sales team’s activities. 
 - Refreshed the cost data used to build financial models by deconstructing the prior model and **coordinating with a cross-functional team** to understand changes in the organization’s cost structure. 
 Result: Health plan deal will be based on the most current and accurate information.  
 - Performed analytics on company-wide revenue write-offs for indigent patients and reported the result to internal audit. 
@@ -33,7 +36,7 @@ Result: The analysis was used to plan a 2-part audit of controls around the writ
 Invited to **provide data systems and analytics support** for this audit.
 - Interviewed multiple finance groups as part of a project for the CFO. 
 Summarized the key similarities and differences in modeling approaches across finance groups and identified best practices. 
-When completed, the resulting **recommendations will drive consistency** across the organization. 
+When completed, the **recommendations will drive consistency** across the organization. 
 
 ###INTERNAL AUDIT EXPERIENCE
 **Quest Diagnostics Inc** Lyndhurst, NJ November 2013 to December, 2015  
@@ -48,7 +51,7 @@ Results: Documentation will form the framework for future audits and enable repe
 - Integrate data from multiple sources and apply **advanced quantitative analytics** to evaluate the expense data. 
 Direct detailed invoice testing efforts towards areas or transactions most likely to have errors. 
 Result:  The engagement required 4 fewer auditors to complete than comparable audits. 
-- **Developed a tool** which reduced the administrative effort in reviewing travel and entertainment expenses. 
+- **Used automation to reduced the administrative effort** in reviewing travel and entertainment expenses. 
 The template automated the expense selection process allowing the team to focus on value added actions. 
 Result: The annual travel and entertainment audit was issued several weeks earlier than prior years.
 - Summarize and **present audit results to senior management** and stakeholders. 
@@ -62,7 +65,7 @@ Examine contractor accounting practices for compliance with Department of Defens
 
 - **Lead a team of auditors** in large and complex assignments. 
 Result: Effective engagement planning to align audit procedures with customer expectations resulted in a 60% cycle time reduction.   
-- **Use audit techniques** such as interviews, inspecting documents, as well as quantitative methods such as regression analysis. 
+- Use audit techniques such as interviews, inspecting documents, as well as **quantitative methods such as regression analysis and statistical sampling**. 
 Complete audit programs and prepare workpapers in accordance with Generally Accepted Government Auditing Standards (GAGAS).  
 - Prepare audit reports to **clearly present results** in accordance with defined audit program steps by streamlining the report to focus discussion with stakeholders on recommendations. 
 Result: Reports are now 30% shorter, with concise summary findings and recommendations.
