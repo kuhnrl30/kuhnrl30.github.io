@@ -47,5 +47,5 @@ The primary tools used are R, GitHub, and RPubs.
 - Calculus I [Coursera / Ohio State University](https://www.coursera.org/learn/calculus1), <a href="../certs/c Calculus I.pdf" target="_blank">Certificate</a>
 - Explore Statistics with R [EdX / Karolinska Institutet](https://www.edx.org/course/explore-statistics-r-kix-kiexplorx-0),  <a href="../certs/e Explore Statistics with R.pdf" target="_blank">Certificate</a>
 - Statistics in a Nutshell [Book / Boslaugh, Sara](http://books.google.com/books/about/Statistics_in_a_Nutshell.html?id=HZpoDjtKT0IC)
+- Statistics for Data Science [Book / Caffo, Brian](https://leanpub.com/LittleInferenceBook)
 - Calculus II [Coursera / Ohio State University](https://www.coursera.org/learn/advanced-calculus/outline) *In Progress*
-
