@@ -25,18 +25,19 @@ Certified Management Accountant (CMA) August, 2012
 Building financial models to evaluate deals and ensure they are profitable. 
 Provide financial insights to account executives to maximize the value from the deal. 
 
+- **Developed dashboard reporting** of strategic pricing initiatives which was delivered to senior executives. 
+Result: Management received actionable insights on success rates enabling them to control the sales team’s activities.  
+- Deconstructed cost assumptions used in financial models and repopulated them with actual spend data. 
+**Coordinated with a cross-functional team** to understand changes in the cost structure after several major reorganizations. 
+Result: Health plan deals will be based on the most current and accurate information.
 - **Developed a database application** to manage current health plan negotiations. 
 Result: The application eliminates 4 hours of manual reporting effort each month through automation and enables ad-hoc analyses by putting the information at the analyst’s fingertips.  
-- **Developed dashboard reporting** of strategic pricing initiatives which was delivered to senior executives. 
-Result: Management received actionable insights on success rates enabling them to control the sales team’s activities. 
-- Refreshed the cost data used to build financial models by deconstructing the prior model and **coordinating with a cross-functional team** to understand changes in the organization’s cost structure. 
-Result: Health plan deal will be based on the most current and accurate information.  
-- Performed analytics on company-wide revenue write-offs for indigent patients and reported the result to internal audit. 
+- Performed analytics on company-wide revenue write-offs for indigent patients and reported the results to internal audit. 
 Result: The analysis was used to plan a 2-part audit of controls around the write-offs. 
 Invited to **provide data systems and analytics support** for this audit.
-- Interviewed multiple finance groups as part of a project for the CFO. 
+- Interviewed multiple finance groups as part of a project for the CFO to standardize the presentation and assumptions used to model deals across lines of business. 
 Summarized the key similarities and differences in modeling approaches across finance groups and identified best practices. 
-When completed, the **recommendations will drive consistency** across the organization. 
+When completed, the **recommendations will drive consistency** across the organization and improve decisions to allocate resources.
 
 ###INTERNAL AUDIT EXPERIENCE
 **Quest Diagnostics Inc** Lyndhurst, NJ November 2013 to December, 2015  
@@ -48,9 +49,9 @@ Result: The audit was performed with minimal interruption to sales operations.
 - Participate in audits of new processes or areas without prior audit coverage such as Supplier Diversity, Revenue Analytics, and non-standard processes at a joint venture. 
 **Determine the audit scope and procedures** which enable a comprehensive review. 
 Results: Documentation will form the framework for future audits and enable repeatable evaluations of the critical controls.
-- Integrate data from multiple sources and apply **advanced quantitative analytics** to evaluate the expense data. 
+- Integrate data from multiple sources and apply **advanced analytics and data mining techniques** including association rules, clustering, and correlation tests to evaluate the expense data. 
 Direct detailed invoice testing efforts towards areas or transactions most likely to have errors. 
-Result:  The engagement required 4 fewer auditors to complete than comparable audits. 
+Result:  The engagement required 4 fewer auditors to complete than comparable audits.
 - **Used automation to reduced the administrative effort** in reviewing travel and entertainment expenses. 
 The template automated the expense selection process allowing the team to focus on value added actions. 
 Result: The annual travel and entertainment audit was issued several weeks earlier than prior years.

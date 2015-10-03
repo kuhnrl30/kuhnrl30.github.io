@@ -10,7 +10,7 @@ description: Projects for Ryan Kuhn, Finance Professional.
 
 ### Projects and Competitions  
 - **Analysis of Credit Approval Data**  
-This project was the final project of the Advanced Topics in Audit Analytics course at Rutgers University. 
+This was the final project of the Advanced Topics in Audit Analytics course at Rutgers University. 
 The course was part of the Masters of Accountancy curriculum and included topics ranging from basic descriptive statistics to apriori algorithms. 
 I used this project as an opportunity to apply association rules using the arule package. 
 I found these association rules were effecive in understanding the data but it wschallenging to vectorize them to predict values missing values.
