@@ -2,6 +2,7 @@
 layout: post
 title: "Ryan Kuhn, CPA Launches Site"
 date: 2015-08-11
+comments: true
 ---
 
 Well,  the time had finally come for me to laucnch my own website. 

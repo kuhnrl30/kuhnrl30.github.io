@@ -2,6 +2,7 @@
 layout: post
 title: "How to Setup Notepad++ as an IDE"
 date: 2015-09-18
+comments: true
 ---
 
 Notepad++ is an incredibly powerful, open source text editor. 
@@ -10,7 +11,7 @@ It only makes sense to put the two together and the result will be a lightweight
 Notepad++ (Npp) opens really quickly and offers code folding and syntax highlighting for many languages based on the file extension when you save your script. 
 The quick startup is especially handy when you have to make a quick edit and you don't want to wait for Spyder or IDLE to open. 
 You can use Notepad++ as an IDE for many languages which gives the advantage of a single consistent environment if you work with multiple languages. 
-I'll show you examples of how I have it setup for  Python, Octave, and R. 
+I'll show you examples of how I have it setup for Python, Octave, and R. 
 I've been using Npp as an IDE since I started using Python and Matlab and I'm slowly transitioning my R scripts from RStudio. 
 If I ever figure out how to use Knitr in Npp, then I'll have few reasons to stay with RStudio.
 
@@ -30,7 +31,7 @@ You should have a working copy of Npp installed and the NppExec plugin installed
 
 ###3. Setup the Execute command  
 This part is a little more complicated but not by much. 
-Its easy to see what you should do once you are done but also easy to get tripped up along the way. 
+It's easy to see what you should do once you are done but also easy to get tripped up along the way. 
 It took me a few attempts to get there because I was over complicating everything. 
 Open the execute command by navigating through this menu path: Plugins > NppExec > Execute. 
 Notice you can also use the F6 key to get there much quicker in the future. 
