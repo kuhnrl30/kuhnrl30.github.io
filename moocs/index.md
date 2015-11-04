@@ -9,16 +9,11 @@ contact: passive
 description: Massive Open Online Courses completed by Ryan Kuhn, Finance Professional.
 ---
 
-This is the record of the courses I have completed during my open-source education on data analytics. 
-The resources I've used include Massive Open Online Courses (MOOCs) on Coursera, edX, and some of the best universities. 
-Of course, there are few substitutes for what you can learn from practice so I've applied the eduction to a few projects and competitions. 
-This is how I live my goal of lifelong learning and continuous improvement.  
+This is the record of the courses I have completed during my open-source education on data analytics. The resources I've used include Massive Open Online Courses (MOOCs) on Coursera, edX, and some of the best universities. Of course, there are few substitutes for what you can learn from practice so I've applied the eduction to a few projects and competitions. This is how I live my goal of lifelong learning and continuous improvement.  
 
 ### Data Science Specialization  
 [Coursera and John Hopkins University](https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage)  
-This specialization track covers the concepts and tools needed throughout the entire data science pipeline including: programming concepts, data munging, data visualization, publishing the analysis, statisics, and usable data products. 
-The specialization had 9 courses and culminates with a capstone project with [Swiftkey](http://swiftkey.com/en/). 
-The primary tools used are R, GitHub, and RPubs.
+This specialization track covers the concepts and tools needed throughout the entire data science pipeline including: programming concepts, data munging, data visualization, publishing the analysis, statisics, and usable data products. The specialization had 9 courses and culminates with a capstone project with [Swiftkey](http://swiftkey.com/en/). The primary tools used are R, GitHub, and RPubs.
 
 - Data Scientist's Tool Box, <a href="../certs/1 Data Scientist Toolbox.pdf" target="_blank">Verified Certificate</a>
 - R Programming, <a href="../certs/2 R Programming.pdf" target="_blank">Verified Certificate</a>

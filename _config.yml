@@ -1,3 +1,6 @@
 name: Ryan Kuhn, CPA
+exclude: ["*.Rmd"]
+permalink: /blog/:title
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+kramdown:
+  input: GFM

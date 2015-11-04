@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Course Review: Big Data Applications and Analytics"
+title: "Course Review- Big Data Applications and Analytics"
 date: 2015-08-16
 comments: true
 ---

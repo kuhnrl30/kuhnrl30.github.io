@@ -9,37 +9,26 @@ contact: passive
 description: Resume for Ryan Kuhn, Finance Professional.
 ---
 
-###SUMMARY OF EXPERIENCE
+### SUMMARY OF EXPERIENCE  
+Experienced finance professional with strong technical, analytical and leadership skills. Broad exposure earned during military, audit, and sales finance experiences has resulted in strong interpersonal skills, learning agility, and a drive for results.  
 
-Experienced finance professional with strong technical, analytical and leadership skills. 
-Broad exposure earned during military, audit, and sales finance experiences has resulted in strong interpersonal skills, learning agility, and a drive for results.  
-
-###PROFESSIONAL CERTIFICATIONS  
+### PROFESSIONAL CERTIFICATIONS  
 
 Certified Public Accountant (CPA), State of New Jersey September, 2013  
 
 Certified Management Accountant (CMA) August, 2012  
 
-###FINANCE EXPERIENCE  
+### FINANCE EXPERIENCE  
 **Quest Diagnostics Inc** Madison, NJ November 2013 to Present  
-Building financial models to evaluate deals and ensure they are profitable. 
-Provide financial insights to account executives to maximize the value from the deal. 
+Building financial models to evaluate deals and ensure they are profitable. Provide financial insights to account executives to maximize the value from the deal. 
 
-- **Developed dashboard reporting** of strategic pricing initiatives which was delivered to senior executives. 
-Result: Management received actionable insights on success rates enabling them to control the sales team’s activities.  
-- Deconstructed cost assumptions used in financial models and repopulated them with actual spend data. 
-**Coordinated with a cross-functional team** to understand changes in the cost structure after several major reorganizations. 
-Result: Health plan deals will be based on the most current and accurate information.
-- **Developed a database application** to manage current health plan negotiations. 
-Result: The application eliminates 4 hours of manual reporting effort each month through automation and enables ad-hoc analyses by putting the information at the analyst’s fingertips.  
-- Performed analytics on company-wide revenue write-offs for indigent patients and reported the results to internal audit. 
-Result: The analysis was used to plan a 2-part audit of controls around the write-offs. 
-Invited to **provide data systems and analytics support** for this audit.
-- Interviewed multiple finance groups as part of a project for the CFO to standardize the presentation and assumptions used to model deals across lines of business. 
-Summarized the key similarities and differences in modeling approaches across finance groups and identified best practices. 
-When completed, the **recommendations will drive consistency** across the organization and improve decisions to allocate resources.
+- **Developed dashboard reporting** of strategic pricing initiatives which was delivered to senior executives. Result: Management received actionable insights on success rates enabling them to control the sales team’s activities.  
+- Deconstructed cost assumptions used in financial models and repopulated them with actual spend data. **Coordinated with a cross-functional team** to understand changes in the cost structure after several major reorganizations. Result: Health plan deals will be based on the most current and accurate information.
+- **Developed a database application** to manage current health plan negotiations. Result: The application eliminates 4 hours of manual reporting effort each month through automation and enables ad-hoc analyses by putting the information at the analyst’s fingertips.  
+- Performed analytics on company-wide revenue write-offs for indigent patients and reported the results to internal audit. Result: The analysis was used to plan a 2-part audit of controls around the write-offs. Invited to **provide data systems and analytics support** for this audit.
+- Interviewed multiple finance groups as part of a project for the CFO to standardize the presentation and assumptions used to model deals across lines of business. Summarized the key similarities and differences in modeling approaches across finance groups and identified best practices. When completed, the **recommendations will drive consistency** across the organization and improve decisions to allocate resources.
 
-###INTERNAL AUDIT EXPERIENCE
+### INTERNAL AUDIT EXPERIENCE
 **Quest Diagnostics Inc** Lyndhurst, NJ November 2013 to December, 2015  
 Work collaboratively across all levels of the organization to perform varying types of reviews including operational, compliance, and financial audits.
 
@@ -60,7 +49,7 @@ Result: Management is kept informed of audit status and recommendations are pers
 - Contribute towards **special projects** within the department. 
 Projects include redesigning the year end performance evaluation criteria for staff and senior auditors.
 
-###CONTRACT AUDIT EXPERIENCE
+### CONTRACT AUDIT EXPERIENCE
 **Defense Contract Audit Agency** Morristown, NJ August, 2010 to November, 2013  
 Examine contractor accounting practices for compliance with Department of Defense procurement regulations to ensure taxpayer dollars are spent on reasonable contract prices. 
 
@@ -75,17 +64,17 @@ Result: These procedures are now regularly incorporated in the audit plans to pr
 - Responsible for **special projects** such as coordinating audit approaches with other audit offices, aggregating and reporting cost data from multiple contractor locations, and researching auditing standards. 
 Result:  Developed a network with other agency offices to facilitate sharing best practices.    
 
-###MILITARY EXPERIENCE
+### MILITARY EXPERIENCE
 **U.S. Marine Corps Reserve** Madison, WI & Al-Anbar, Iraq June, 2002 - July, 2009
 
 - Lead a 12 man squad in combat operations.  
 - Instruct junior Marines in technical aspects of infantry field such as navigation, communication equipment, and first aid. 
 Result: Marines were ready for deployments and prepared to assume future leadership roles.
 
-###EDUCATION
+### EDUCATION
 **Rutgers, the State University of New Jersey** Newark, NJ Coursework Completed August, 2015  
-Masters of Accountancy- Financial Accounting, GPA 3.500 
+Masters of Accountancy- Financial Accounting, GPA 3.5  
 
 **University of Wisconsin- Whitewater**, WI August, 2010  
-Bachelor of Business Administration – Accounting, GPA: 3.625
+Bachelor of Business Administration – Accounting, GPA: 3.6
 
