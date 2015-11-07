@@ -5,7 +5,7 @@ layout: post
 comments: true
 ---
 
->Business intelligence (BI) is the set of techniques and tools for the transformation of raw data into meaningful and useful information for business analysis purposes.*  
+>Business intelligence (BI) is the set of techniques and tools for the transformation of raw data into meaningful and useful information for business analysis purposes.or
 >-Wikipedia
 
 ```{r, echo=FALSE, results='hide', message= FALSE}
@@ -43,7 +43,7 @@ sqldf(sqlString1)
 ```  
     
     
-That's great but it's really a simple query that doesn't really tell us much. In real application, SQL queries are much more complex and the sqldf package can handle those too. To demonstrate, we'll up the complexity by adding multiple joins and a calculated field. This next query calculates the total order price for each OrderDetail line and then sums them by the Company that placed the order. To get there we have to join the OrderDetails table to the Orders table, then perform a second join to the Customers table. Finally, the results are sorted so the OrderTotal field is in descending order.
+That's great but it's really a simple query that doesn't really tell us much. In real application, SQL queries are much more complex and the sqldf package can handle those too. To demonstrate, we'll up the complexity by adding multiple joins and a calculated field. This next query calculates the total order price for each OrderDetails line and then sums them by the Company that placed the order. To get there we have to join the OrderDetails table to the Orders table, then perform a second join to the Customers table. Finally, the results are sorted so the OrderTotal field is in descending order.
 
 ```{r, tidy=F}
 sqlString2<- paste("SELECT Company, CustomerID, ",  

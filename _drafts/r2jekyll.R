@@ -3,7 +3,7 @@ library(knitr)
 setwd("c:/users/ryan/dropbox/website/_drafts")
 
 # Get the filename 
-filename <- "Introducing-Northwind.Rmd"
+filename <- "using-sql-in-R.Rmd"
 
 
 # Check that it's a .Rmd file.
