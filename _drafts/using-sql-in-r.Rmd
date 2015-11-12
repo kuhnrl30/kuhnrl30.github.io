@@ -1,12 +1,9 @@
 ---
 title: "How to Use SQL in R"
-date: 2015-11-03
+date: 2015-11-11
 layout: post
 comments: true
 ---
-
->Business intelligence (BI) is the set of techniques and tools for the transformation of raw data into meaningful and useful information for business analysis purposes.or
->-Wikipedia
 
 ```{r, echo=FALSE, results='hide', message= FALSE}
 library(knitr)  
@@ -17,18 +14,26 @@ opts_chunk$set(message=FALSE,
                tidy=FALSE)
 ```
 
-SQL, short for Structured Query Language, offers a fast and consistent way to manipulate data across platforms. Thanks to ANSI standardization, the same query string can be used in Access, MySQL, or other database options. Many business analysts are familiar with SQL but may not be as comfortable with R. This post will be a quick demonstration on how to put the two together and use SQL in R. We'll use the Northwind database which was created by Microsoft to demo their MS Access product. I've extracted the tables and put them in a package called Northwind. The package is hosted on GitHub and can be freely downloaded using the code below.
+SQL, short for Structured Query Language, offers a fast and consistent way to manipulate data across platforms. Thanks to ANSI standardization, the same query string can be used in Access, MySQL, or other database options. Many business analysts are familiar with SQL but may not be as comfortable with R. This post will be a quick demonstration on how to put the two together and use SQL in R. 
+
+#### Load the data 
+Demonstrations in R usually use the well known Iris, Titanic, or Diamonds datasets whereas database demos often use the Northwind database.  Northwind was created by Microsoft to demo their MS Access product and since we are working with SQL for this exercise, we'll use the Northwind database. I've extracted the tables and put them in a package called Northwind. The package is hosted on GitHub and can be freely downloaded using the code below.
 
 ```{r results='hide', tidy=TRUE}
 library(devtools)
-install_github("kuhnrl30/Northwind")
+#install_github("kuhnrl30/Northwind")
 library(Northwind)   
 data(Northwind)  
 ```
  
+#### The SELECT Query 
 The SELECT query is the most common application of SQL in business intelligence. Simply stated, it reads the data from a table and returns all the values matching the criteria provided. Adding criteria allows us to drill down into the data and remove the irrelevant results. 
 
-Before we go on, I have two recommendations to make reading and writing your statements easier. The first is to form your SQL statement as a string variable and then pass the string to the sqldf function. By doing this, you are able to more clearly organize your query statement making it easier to read and debug if there are any issues. The second is to make your SQL clauses all caps. The SQLDF package isn't case sensitive towards the clauses and I think it makes the statement pick out where the next clause begins.
+>**A few recommendations**  
+
+>1. Form your SQL statement as a string variable and then pass the string to the sqldf function. By doing this, you are able to more clearly organize your query statement.It;ll be easier to debug if there are any issues. 
+>2. Make your SQL clauses all caps. The SQLDF package isn't case sensitive towards the clauses and I think it makes the statement pick out where the next clause begins.
+> 
 
 The first example is a SELECT query which returns the first 4 companies from the Customers table. Note sqldf uses the LIMIT syntax instead TOP used in the MS Access implementation. 
 
@@ -63,8 +68,9 @@ sqldf(sqlString2)
 ```
   
     
-Now that query was a little more interesting than a simple customer list! The result-set above shows us that Company BB is our largest customer. If we were after business intelligence, we might follow up with questions such as which employees are handling Customer BB's account or what items did the customer buy. 
+Now that query was a little more interesting than a simple customer list! The result-set above shows us that Company BB is our largest customer. We might follow up with questions such as which employees are handling Customer BB's account or what items did the customer buy. 
 
+#### SQL is similar to dplyr 
 For those who already know or are familiar with SQL, the sqldf package offers an easy way to leverage that knowledge in R. If offers a simple way to extract data from multiple tables. Contrarily, if you are familiar with the popular dplyr package, you can see the similarities in syntax between dplyr and SQL. Here we accomplish the same results using the dplyr package. Both formats use the INNER JOIN and GROUP BY calls. Where they differ is that dplyr requires the additional functions mutate and summarise but SQL handles the calculations directly the SELECT statement.  (Yes, I said summarise and not summarize. That's just how Hadley spells it.)
 
 ```{r}
