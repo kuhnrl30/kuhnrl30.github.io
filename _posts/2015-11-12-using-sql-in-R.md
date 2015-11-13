@@ -1,6 +1,6 @@
 ---
 title: "How to Use SQL in R"
-date: 2015-11-11
+date: 2015-11-12
 layout: post
 comments: true
 ---
@@ -24,7 +24,7 @@ data(Northwind)
 The SELECT query is the most common application of SQL in business intelligence. Simply stated, it reads the data from a table and returns all the values matching the criteria provided. Adding criteria allows us to drill down into the data and remove the irrelevant results. 
 
 >**A few recommendations**  
-
+> 
 >1. Form your SQL statement as a string variable and then pass the string to the sqldf function. By doing this, you are able to more clearly organize your query statement.It;ll be easier to debug if there are any issues. 
 >2. Make your SQL clauses all caps. The SQLDF package isn't case sensitive towards the clauses and I think it makes the statement pick out where the next clause begins.
 > 
