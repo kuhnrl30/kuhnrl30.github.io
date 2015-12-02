@@ -52,5 +52,4 @@ write.csv(submit,"submit.csv", row.names=F)
 
 # Cleanup 
 rm(base,basepred)
-
 </pre>

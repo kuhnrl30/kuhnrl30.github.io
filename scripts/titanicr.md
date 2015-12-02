@@ -292,5 +292,4 @@ for(i in 1:length(p.hats)) {
 kaggle.sub <- cbind(PassengerId,survival)
 colnames(kaggle.sub) <- c("PassengerId", "Survived")
 write.csv(kaggle.sub, file = "titanic-submit.csv", row.names = FALSE)
-
 </pre>

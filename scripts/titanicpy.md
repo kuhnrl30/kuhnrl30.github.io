@@ -134,7 +134,4 @@ for x in predictions:
 submission = pd.DataFrame({'PassengerID': Test['PassengerId'],'Survived': predictions}) 
 submission.to_csv("c:/users/ryan/dropbox/pythonprojects/titanic/output/submission.csv",
 		index = False)
-
-
-
 </pre>

@@ -283,5 +283,4 @@ summarise(Freq=n(),
 Approved=sum(Approved==1))
 tbl
 chisq.test(tbl[2:3])
-
 </pre>
