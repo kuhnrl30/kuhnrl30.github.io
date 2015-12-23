@@ -1,6 +1,10 @@
-name: Ryan Kuhn, CPA
+name: Ryan Kuhn | Turning Data Into Decisions
+url: http://ryankuhn.net
+author: Ryan Kuhn
 exclude: ["*.Rmd"]
 permalink: /blog/:title
 markdown: kramdown
 kramdown:
   input: GFM
+gems:
+- jekyll-feed

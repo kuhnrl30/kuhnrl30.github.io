@@ -3,6 +3,9 @@ title: "Introducing the Northwind package"
 date: 2015-11-06
 layout: post
 comments: true
+tags:
+- R
+- Northwind
 ---
 
 ## Datasets from a business information system

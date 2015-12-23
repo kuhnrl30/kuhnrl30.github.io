@@ -3,6 +3,8 @@ title: "Writing Functions in VBA"
 date: 2015-11-29
 layout: post
 comments: true
+tags:
+- VBA
 ---
 
 ## Make life easier by using functions instead of complex equations
