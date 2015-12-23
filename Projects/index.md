@@ -13,8 +13,8 @@ description: Credit Analysis R Code
 
 
 - **Analysis of Credit Approval Data**  
-The goal of this project was to predict whether an applicant was approved for credit application.  This was my final project in the Advanced Topics in Audit Analytics course at Rutgers University. The course was part of the Masters of Accountancy curriculum and included topics ranging from basic descriptive statistics to the apriori algorithm. I used this project as an opportunity to apply association rules and discover interesting relations between variables. I found association rules to be very effective for understanding the data. I documented the analysis in a report which can be accessed <a href="../writeups/creditanalysis.html"> here</a>.  
-<a href= "../scripts/creditanalysis.html" > R Code</a>.
+The goal of this project was to predict whether an applicant was approved for credit application.  This was my final project in the Advanced Topics in Audit Analytics course at Rutgers University. The course was part of the Masters of Accountancy curriculum and included topics ranging from basic descriptive statistics to the apriori algorithm. I used this project as an opportunity to apply association rules and discover interesting relations between variables. I found association rules to be very effective for understanding the data. I documented the analysis in a report which can be accessed below.  
+<a href= "../scripts/creditanalysis.html" > R Code</a>, <a href="../writeups/creditanalysis.html"> Analysis Report</a>
 
   
 - **Walmart- Sales in Stormy Weather**  
