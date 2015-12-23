@@ -11,8 +11,9 @@ comments: true
 ## Connecting to the Yahoo Sports API with R  
 Fantasy sports can be fun. They are especially fun for data nerds like me who aren't necessarily sports fans. This is the first of several posts describing how to perform analytics on my Yahoo fantasy team using R. In this post I will demonstrate how to connect to the Yahoo Sports API, or Application Programing Interface, using the httr package.
 
+
 ### Setup the App
-The first step in the process is to register an application with Yahoo  **[here](https://developer.yahoo.com/apps/create/)**. This is the doorway through which you get access to the league data.  Make sure you check the box for Fantasy Sports at the bottom of the form. Once you have your app registered, Yahoo will provide you with a consumer key and secret which you will need later.
+<img src="/images/yahoo_sports.png" alt="Yahoo Sports" align="right" width="280" height="125" hspace="20"> The first step in the process is to register an application with Yahoo  **[here](https://developer.yahoo.com/apps/create/)**. This is the doorway through which you get access to the league data.  Make sure you check the box for Fantasy Sports at the bottom of the form. Once you have your app registered, Yahoo will provide you with a consumer key and secret which you will need later.
 
 Yahoo's  **[documentation](https://developer.yahoo.com/fantasysports/guide/)** on the API is pretty dense so I will try to distill it here. The API is based on the RESTful model and built on collections and resources.  Resources are objects within collections; each resource is itself a collection.  To illustrate, a collection of teams is composed of player resources.  In turn, the Players collection is composed player transaction resources.  
 
@@ -97,5 +98,6 @@ kable(Standings)
 |michael's Team      |3    |10     |0    |.231    |loss        |4      |
 |lola's Legit Team   |2    |11     |0    |.154    |loss        |6      |
 |Bob's Bold Team     |2    |11     |0    |.154    |loss        |5      |
-
+  
+  
 That's how you connect to the Yahoo Sports API. There are many interesting ways to use it and I'll demonstrate a few of them in the next post so stay tuned.  If you liked this post, then feel free to share!
