@@ -7,11 +7,3 @@ permalink: /blog/:title
 markdown: kramdown
 kramdown:
   input: GFM
-gems:
-- jekyll-feed
-
-tag_page_layout: tag_page
-tag_page_dir: tag
-tag_feed_layout: atom_tag
-tag_feed_dir: tag
-tag_permalink_style: pretty
