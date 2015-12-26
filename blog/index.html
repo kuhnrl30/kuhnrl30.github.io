@@ -3,13 +3,37 @@ layout: default
 title: Ryan Kuhn's Blog
 ---
 
-	<a href= "/blog/tag/" title="Blog Tags" style="float: right;"> Blog Tags</a>
+<style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
 
-	<h1>{{ page.title }}</h1>
-	
-	<ul class="posts">
+td {
+    vertical-align: top;
+}
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+th {
+	vertical-align: bottom;
+}
+</style>
+
+<table>
+	<tr>
+		<th><h1>{{ page.title }}</h1>
+		<th><h4>Links</h4>
+	</tr>
+	<tr>
+		<td>
+			<ul class="posts">
+			{% for post in site.posts %}
+			<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+			{% endfor %}
+			</ul>
+		</td>
+		<td>
+			<a href= "/blog/tag/" title="Blog Tags"> Posts By Tag</a><br>
+			<a href="htto://www.r-bloggers.com" title="R-Bloggers"> R-Bloggers</a>
+		</td>
+	</tr>
+</table>
