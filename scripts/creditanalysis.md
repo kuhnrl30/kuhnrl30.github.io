@@ -33,7 +33,7 @@ rm(myURL)
 # Load the data
 Cols<- c(rep("character",2), "numeric",rep("character",4),"numeric",rep("character",2), + 
 	"numeric",rep("character",3),"numeric","character")
-Data<-read.csv("data/Dataset.csv",sep=",",colClasses=Cols)
+Data<-read.csv("data/Dataset.csv",sep=",",colClasses=Cols, na.strings="?")
 rm(Cols)
 
 # Give the columns fictitious names based on the data type.
@@ -49,16 +49,10 @@ str(Data)
 
 
 # Convert binary values to 1 or 0
-Data$Male	<- ifelse(Data$Male=="a",1,0)
-Data$Employed	<- ifelse(Data$Employed=="t",1,0)
-Data$PriorDefault<-ifelse(Data$PriorDefault=="t",1,0)
-
-# Convert credit granted to 1 or 0
-Data$Approved	<-ifelse(Data$Approved=="+",1,0)
-Data$Approved	<-factor(Data$Approved)
-
-# Convert missing values to NA
-Data[Data=="?"]	<-NA
+Data$Male	 <- factor(ifelse(Data$Male=="a",1,0))
+Data$Employed	 <- factor(ifelse(Data$Employed=="t",1,0))
+Data$PriorDefault<- factor(ifelse(Data$PriorDefault=="t",1,0))
+Data$Approved	 <- factor(ifelse(Data$Approved=="+",1,0))
 
 Data$Age<-as.numeric(Data$Age)
 

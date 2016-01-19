@@ -20,15 +20,13 @@ library(dplyr)      # data manipulation
 library(vcd)        # plotting
 library(lattice)    # plotting
 library(pROC)       # scoring the training model
-library(rpart)      # Create the modek
+library(rpart)      # Create the model
 library(rpart.plot) # plot classifier
 library(knitr)
 library(tm)
-library(caTools)    #Slit trainingset
-#library(SnowballC)
+library(caTools)    #Split trainingset
 library(randomForest)
-#setwd(paste("C:/users/",Sys.getenv("USERNAME"),"/dropbox/RProjects/RAOP",sep=""))
-#setwd("c:/Users/owner/dropbox/kaggle challenges/RAOP")
+setwd(paste("C:/users/",Sys.getenv("USERNAME"),"/dropbox/RProjects/RAOP",sep=""))
 opts_chunk$set(cache=FALSE,fig.height=3,echo=FALSE,comment="")
 
 
@@ -53,7 +51,7 @@ names(train)<-names(Train.raw[[1]])
 # remove the raw dataset to clear some memory
 rm(Train.raw)
 
-
+# Do the same to load the test set
 Test.raw<- fromJSON(file="../data/test.json", method='C')
 Test.raw<- lapply(Test.raw,lapply,function(x) ifelse(is.null(x),NA,x))
 Test.raw<- lapply(Test.raw,lapply,lapply,function(x) ifelse(is.null(x),NA,x))
@@ -83,7 +81,7 @@ NA.df %>%
 #remove columns not in test set
 train<-train[,-c(2:4,6,7,11,13,15,17,19,21,26,28:29)]
 
-#rearrange so target value is the last column and idex values will match
+#rearrange so target value is the last column and index values will match
 train<-train[,c(1:11,13:18,12)]
 
 
@@ -182,7 +180,6 @@ sparseTrain<-removeSparseTerms(dtmTrain,0.90)
 
 wordsTrain<-as.data.frame(as.matrix(sparseTrain), row.names=F)
 
-#wordsTrain<-as.data.frame(inspect(sparseTrain))
 Targets<-colnames(wordsTrain)
 colnames(wordsTrain) = paste("A", colnames(wordsTrain),sep="")
 

@@ -1,5 +1,5 @@
 ---
-title: "Fantasy Football Analytics in R- Part 1"
+title: "Fantasy Football Analytics in R - Part I"
 date: 2015-12-22
 output: html_document
 layout: post
@@ -24,25 +24,19 @@ Once you have registered your app, the next step is to setup the connection to t
 # Setup the environment
 library(httr)
 library(XML)
-```
-
-```
-Loading required package: methods
-```
-
-```r
 library(httpuv)
 options("httr_oob_default" = T)
 
 # Setup the app
-cKey     <- readLines("Creds.txt", warn=F)[1]
-cSecret  <- readLines("Creds.txt", warn=F)[2]
+cKey     <- readLines("Creds.txt", warn=FALSE)[1]
+cSecret  <- readLines("Creds.txt", warn=FALSE)[2]
 
 yahoo    <-oauth_endpoints("yahoo")
 
 myapp <- oauth_app("yahoo", key=cKey, secret=cSecret)
 yahoo_token<- oauth2.0_token(yahoo, myapp, cache=T, use_oob = T)
 sig <- sign_oauth1.0(myapp, yahoo_token$oauth_token, yahoo_token$oauth_token_secret)
+save(sig,file="Fantasy.Rdata")
 ```
 
 ### Query the API  
@@ -71,34 +65,37 @@ The final step in this demo is to convert the raw xml data into a format that is
 # Function to extract data from different elements of the list
 FromMyList<- function(x){
   A<-myList$league$standings$teams[[x]]$name
-  B<-unlist(myList$league$standings$teams[[x]]$team_standings$outcome_totals)
-  C<-unlist(myList$league$standings$teams[[x]]$team_standings$streak)
-  names(A)<-names(B)<-names(C)<-NULL
-  c(A,B,C)
+  B<-myList$league$standings$teams[[x]]$team_id
+  C<-unlist(myList$league$standings$teams[[x]]$team_standings$outcome_totals)
+  D<-unlist(myList$league$standings$teams[[x]]$team_standings$streak)
+  names(A)<-names(B)<-names(C)<-names(D)<-NULL
+  c(A,B,C,D)
   }
 
 # Combine the data into a dataframe
-Standings<- as.data.frame(matrix(unlist(lapply(1:10, function(x) FromMyList(x))), byrow=T, ncol=7))
+Standings<- as.data.frame(matrix(unlist(lapply(1:10, function(x) FromMyList(x))), 
+                                 byrow=T, 
+                                 ncol=8), 
+                          row.names = NULL)
 
 # Apply formatting
-names(Standings)<- c("Team Name", "Wins", "Losses", "Ties", "Win Pct", "Streak Type", "Streak")
-kable(Standings)
+names(Standings)<- c("Team Name", "ID", "Wins", "Losses", "Ties", "Win Pct", "Streak Type", "Streak")
+
+print(Standings, row.names = FALSE)
 ```
 
+```
+           Team Name ID Wins Losses Ties Win Pct Streak Type Streak
+             My Team  7   12      1    0    .923         win      4
+         Ryan's Team  5    8      5    0    .615         win      3
+        Favre & Goal  8    9      4    0    .692         win      1
+     Touchdown Below  3   12      1    0    .923         win      6
+       Taylor's Team  4    7      6    0    .538        loss      2
+       Travis's Team  2    6      7    0    .462        loss      1
+      michael's Team 10    3     10    0    .231        loss      4
+ Chez's Awesome Team  6    4      9    0    .308         win      2
+   lola's Legit Team  9    2     11    0    .154        loss      6
+     Bob's Bold Team  1    2     11    0    .154        loss      5
+```
 
-
-|Team Name           |Wins |Losses |Ties |Win Pct |Streak Type |Streak |
-|:-------------------|:----|:------|:----|:-------|:-----------|:------|
-|Touchdown Below     |12   |1      |0    |.923    |win         |6      |
-|My Team             |12   |1      |0    |.923    |win         |4      |
-|Favre & Goal        |9    |4      |0    |.692    |win         |1      |
-|Ryan's Team         |8    |5      |0    |.615    |win         |3      |
-|Taylor's Team       |7    |6      |0    |.538    |loss        |2      |
-|Travis's Team       |6    |7      |0    |.462    |loss        |1      |
-|Chez's Awesome Team |4    |9      |0    |.308    |win         |2      |
-|michael's Team      |3    |10     |0    |.231    |loss        |4      |
-|lola's Legit Team   |2    |11     |0    |.154    |loss        |6      |
-|Bob's Bold Team     |2    |11     |0    |.154    |loss        |5      |
-  
-  
 That's how you connect to the Yahoo Sports API. There are many interesting ways to use it and I'll demonstrate a few of them in the next post so stay tuned.  If you liked this post, then feel free to share!

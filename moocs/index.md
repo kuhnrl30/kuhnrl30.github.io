@@ -8,8 +8,14 @@ MOOCs: active
 contact: passive
 description: Massive Open Online Courses completed by Ryan Kuhn, Finance Professional.
 ---
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
-This is the record of the courses I have completed during my open-source education on data analytics. The resources I've used include Massive Open Online Courses (MOOCs) on Coursera, edX, and some of the best universities. Of course, there are few substitutes for what you can learn from practice so I've applied the eduction to a few projects and competitions. This is how I live my goal of lifelong learning and continuous improvement.  
+</head>
+
+> MOOC: (/m&#333;&#333;k/): massive open online course; is an online course aimed at unlimited participation and open access via the web.
+
+This is the record of the courses I have completed during my open-source education on data analytics. The resources I've used include Massive Open Online Courses (MOOCs) on Coursera and edX from some of the best universities. Of course, there are few substitutes for what you can learn from practice so I've applied the eduction to a few projects and competitions. This is how I live my goal of lifelong learning and continuous improvement.  
 
 ### Data Science Specialization  
 [Coursera and John Hopkins University](https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage)  
@@ -22,6 +28,7 @@ This specialization track covers the concepts and tools needed throughout the en
 - Reproducible Research, <a href="../certs/5 Reproducible Research.pdf" target="_blank">Verified Certificate</a>
 - Statistical Inference, <a href="../certs/6 Statistical Inference.pdf" target="_blank">Verified Certificate</a>
 - Developing Data Products <a href="../certs/9 Developing Data Products.pdf" target="_blank">Verified Certificate</a>
+- Regression Models 
 
 
 ### Data Analytics

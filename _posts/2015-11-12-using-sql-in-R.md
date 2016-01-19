@@ -19,7 +19,7 @@ Demonstrations in R usually use the well known Iris, Titanic, or Diamonds datase
 
 ```r
 library(devtools)
-# install_github('kuhnrl30/Northwind')
+install_github('kuhnrl30/Northwind')
 library(Northwind)
 data(Northwind)
 ```
