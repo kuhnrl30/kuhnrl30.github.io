@@ -28,7 +28,7 @@ This specialization track covers the concepts and tools needed throughout the en
 - Reproducible Research, <a href="../certs/5 Reproducible Research.pdf" target="_blank">Verified Certificate</a>
 - Statistical Inference, <a href="../certs/6 Statistical Inference.pdf" target="_blank">Verified Certificate</a>
 - Developing Data Products <a href="../certs/9 Developing Data Products.pdf" target="_blank">Verified Certificate</a>
-- Regression Models 
+- Regression Models <a href="../certs/7 Regression Models.pdf" target="_blank">Verified Certificate</a>
 
 
 ### Data Analytics

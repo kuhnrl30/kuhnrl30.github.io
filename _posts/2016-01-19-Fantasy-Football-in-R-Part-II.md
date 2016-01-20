@@ -1,17 +1,17 @@
 ---
 title: "Fantasy Football Analytics in R - Part II"
-date: 2016-01-31
+date: 2016-01-19
 layout: post
 comments: true
 tags: [Fantasy-Football, R]
 ---
 
 ## Using the Yahoo Fantasy Sports API  
-This is the second post in a series performing analytics on my Yahoo Fantasy Football team using R. In the **[prior post](http://ryankuhn.net/blog/Fantasy-Football-in-R/)** I demonstrated how to connect to Yahoo Sports APIs.  That post left off having connected to the API and pulled the standings for my league. I never discussed how I learned the league and game ID variables. Let's start by going through that process which will also help to understand the API structure of Collections and Resources. 
+This is the second post in a series performing analytics on my Yahoo Fantasy Football team using R. In the **[prior post](http://ryankuhn.net/blog/Fantasy-Football-in-R/)** I demonstrated how to connect to Yahoo Sports APIs. That post left off having connected to the API and pulled the standings for my league. I never discussed how I learned the league and game ID variables. Let's start by going through that process which will also help to understand the API structure of Collections and Resources. 
 
 
 #### Reloading the Signature Credential  
-In order to start from where I last left off, I first have to reload the  credential. You may remember creating the credential was the purpose of the last post so I'll assume you've already done that step. I saved the <font face= "courier">sig</font> variable to an .Rmd file and will simply reload it here. 
+In order to start from where I last left off, I first have to reload the credential. You may remember creating the credential was the purpose of the last post so I'll assume you've already done that step. I saved the <font face= "courier">sig</font> variable to an .Rmd file and will simply reload it here. 
 
 
 ```r
@@ -21,7 +21,7 @@ load("Fantasy.Rdata")
 ```
 
 #### Getting the Game ID
-The Game ID is how Yahoo defines the sport and season of the fantasy team. There is a unique ID number for each sport/season combo so the 2015 Football season has a different key from the 2014 Football season which is different than the 2015 basketball season. You can get this table directly from the documentation but we can also use the API.
+The Game ID is how Yahoo defines the sport and season of the fantasy team. There is a unique ID number for each sport/season combo so the 2015 football season has a different key from the 2014 football season which is different than the 2015 basketball season. You can get this table directly from the documentation but we can also use the API.
 
 
 ```r
@@ -39,7 +39,7 @@ xmlRoot(XMLGames)[[1]][[2]]
 ```
   
 #### Getting the League ID
-As far as I can tell, the League ID can't be retrieved from the API.  Instead, you can find it easily from your league page on Yahoo.  Navigate to your league on Yahoo Fantasy and click the League link. This will open the Overview page with your league ID in large letters. You can't miss it!
+As far as I can tell, the League ID can't be retrieved from the API. Instead, you can find it easily from your league page on Yahoo. Navigate to your league on Yahoo Fantasy and click the League link. This will open the Overview page with your league ID in large letters. You can't miss it!
 
 
 <img src="/images/yahoo_sports2.png" alt="Yahoo Sports" align="center" width="750" height="500" hspace="20"> 
@@ -48,7 +48,7 @@ As far as I can tell, the League ID can't be retrieved from the API.  Instead, y
 ## Compare Actual and Projected Weekly Point Spread  
 
 #### Extracting the Data   
-Start by extracting the data from Yahoo using the API. You'll need the Game ID and League ID from above to finish out the query. Append these query parameters to the base query string from above.  Next, using the GET function, pass the query string and signature to the API to receive the response from the API. The data in the response will be in XML format and can be access with list notation.
+Start by extracting the data from Yahoo using the API. You'll need the Game ID and League ID from above to finish out the query. Append these query parameters to the base query string from above. Next, using the GET function, pass the query string and signature to the API to receive the response from the API. The data in the response will be in XML format and can be access with list notation.
 
 ```r
 library(ggplot2)
@@ -62,7 +62,7 @@ XML     <- content(page)
 root    <- xmlRoot(XML)
 ```
 
-With the data returned from the API, the next step is to extract the elements needed from the XML format and convert to a data frame. The scoring stats I'm looking for are pretty deep into the XML tree so be careful with the brackets on your way down.  Since I'm going to extract the same data for each of the 14 weeks, I found it was more efficient to compose a function and loop through the list rather than repeat the same code 14 times. There are two teams in every matchup so to get the data on both team each week, I passed to variables to the query- 1 for the week and another for the team. The mapply function works similar to the other functions in the apply family and allows me to pull the data for each combination of week and team.
+With the data returned from the API, the next step is to extract the elements needed from the XML format and convert to a data frame. The scoring stats I'm looking for are pretty deep into the XML tree so be careful with the brackets on your way down. I'm going to extract the same data for each of the 14 weeks so it is more efficient to compose a function and loop through the list rather than repeat the same code 14 times. There are two teams in every matchup so to get the data on both team each week, I passed two variables to the query- 1 for the week and another for the team. The mapply function works similar to the other functions in the apply family and allows me to pull the data for each combination of week and team.
 
 
 ```r
@@ -79,7 +79,7 @@ temp  <- mapply(GetPoints, Combos[,1], Combos[,2])
 Weekly.Points<- data.frame(t(temp))
 names(Weekly.Points)<- c("Team", "Actual", "Projected", "Week")
 ```
-A little more formatting and we get a long, tidy data set.
+I want to compare the predicted and actual point spread for each matchup. Here I've calculated the spread as the difference between my team's points and the opponent's score. A little more formatting and we get a long, tidy data set.  
 
 ```r
 # Cleanup data and create a tidy dataset
@@ -116,11 +116,11 @@ head(Tidy)
 ```
 
 #### Getting Ready to Plot   
-I want to compare the predicted and actual point spread for each matchup. Here I've calculated the spread as the difference between my team's points and the opponent's score. By using the long format, I can pass the data to a ggplot function.
+The data needs to be in a long format before being passed to ggplot. 
 
 
 ```r
-Spread<-Tidy  %>%
+Spread<-Tidy %>%
   select(-(My_Team_Actual:Opponent_Projected)) %>%
   gather(Type, Spread, Actual_Spread:Projected_Spread) %>%
   arrange(Week)
@@ -139,7 +139,8 @@ head(Spread)
 6    4 Projected_Spread   6.12
 ```
 
-The last step is to prepare the plot comparing the predicted point spread and the actual point spread. This will show how accurate the predictions were and there may be other lessons to learn from the data. The Actual point spread in blue is the difference between my points and my opponents points at the end of the week.  The projected point spread in red is the difference between the projected points at the beginning of the week. 
+The last step is to prepare the plot comparing the predicted point spread and the actual point spread. This will show how accurate the predictions were and there may be other lessons to learn from the data. The actual point spread in red is the difference between my points and my opponents points at the end of the week. The projected point spread in blue is the difference between the projected points at the beginning of the week. 
+
 
 ```r
 a<- ggplot(Spread)
@@ -159,11 +160,11 @@ a<- a + labs(title= "Comparing Projected to Actual Point Spread")
 <img src="/images/SpreadChart-1.png" title="plot of chunk SpreadChart" alt="plot of chunk SpreadChart" width="750px" width= '750' height= '400' style="display: block; margin: auto;" />
 
 #### Observations from the Data  
-Looking at the chart, I'm immediately drawn to week 11. The actual spread is about -75 points meaning I lost big time. Let me just explain this as the week Drew Brees had a ridiculous game- throwing 5 touchdowns.  Can we chalk that up as an outlier and move on?  Thanks.    
+Looking at the chart, I'm immediately drawn to week 11. The actual spread is about -75 points meaning I lost big time. Let me just explain this as the week Drew Brees had a ridiculous game- throwing 5 touchdowns. Can we chalk that up as an outlier and move on? Thanks.   
 
-The next thing I notice is that the projected outcome seems to get more accurate as the point spread increases.  If Yahoo projected that I would win by a large margin, then I probably won the week.  The same thing goes for losses; if they projected  I would lose by a lot of points, then its likely that I actually lost. 
+The next thing I notice is that the projected outcome seems to get more accurate as the point spread increases. If Yahoo projected that I would win by a large margin, then I probably won the week. The same thing goes for losses; if they projected I would lose by a lot of points, then its likely that I actually lost. 
 
-Let's test the data to confirm my observation.  Using the projected point spread, I created a variable to indicate if Yahoo projected I would win or lose the week and another to indicate if the actual outcome of the matchup. Next, I created a third variable to track the accuracy of the projected.  If projected outcome was a win and I actually won, the the accuracy is true.  If the projected and actual values are not matching, then the accuracy variable is false. Finally, I've used a box plot to compare the projection accuracy and the projected point spread.  The box plot will give the mean point spread by accuracy score.   
+Let's test the data to confirm my observation. Using the projected point spread, I created a variable to indicate if Yahoo projected I would win or lose the week and another to indicate if the actual outcome of the matchup. Next, I created a third variable to track the accuracy of the projected. If projected outcome was a win and I actually won, the the accuracy is true. If the projected and actual values are not matching, then the accuracy variable is false. Finally, I've used a box plot to compare the projection accuracy and the projected point spread. The box plot will give the mean point spread by accuracy score.   
 
 
 ```r
@@ -180,11 +181,11 @@ b<- b + labs(title= "Comparing Projected Outcome Accuracy by Point Spread",
              y= "Projected Point Spread")
 ```
 
-Very quickly can see that the false accuracy scores have a lower mean projected spread. This supports the observation that projections were more accurate as the point spread increased.  Thinking about this intuitively, larger point spreads give more cushion to absorb any forecasting error.  
+Very quickly can see that the false accuracy scores have a lower mean projected spread. This supports the observation that projections were more accurate as the point spread increased. Thinking about this intuitively, larger point spreads give more cushion to absorb any forecasting error.  
 
 <img src="/images/boxplot-1.png" title="plot of chunk boxplot" alt="plot of chunk boxplot" width="750px" height="2" width= '750' height= '400' style="display: block; margin: auto;" />
 
-We can do a simple t.test and confirm statistically that the mean point spread for accurate projections is greater than incorrect projections.  The p-value in the test is approximately .09 so we can say with greater than 90% confidence that the actual difference between the two sample means is greater than zero. Again, more support for the intuitive observation.
+We can do a simple t.test and confirm statistically that the mean point spread for accurate projections is greater than incorrect projections. The p-value in the test is approximately .09 so we can say with greater than 90% confidence that the actual difference between the two sample means is greater than zero. Again, more support for the intuitive observation.
 
 ```r
 t.test(abs(Projected_Spread)~Projection_Accuracy, 
@@ -207,6 +208,6 @@ mean in group FALSE  mean in group TRUE
 ```
 
 ### The Bottom Line  
-If you are projected to win or lose by a large margin, then you probably will.  If the projected point spread is small, well... that's why they play the game.  
+If you are projected to win or lose by a large margin, then you probably will. If the projected point spread is small, well... that's why they play the game.  
 
 Thanks for reading and I hope to see you next time. 

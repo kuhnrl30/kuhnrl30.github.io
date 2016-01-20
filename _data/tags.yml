@@ -4,11 +4,15 @@ R:
 VBA:
  name: VBA
  
-Fantasy-football:
+FantasyFootball:
  name: Fantasy Football
  
 Python:
  name: Python
 
 Octave:
- name: Octact
+ name: Octave
+ 
+Northwind:
+ name: Northwind
+ 
