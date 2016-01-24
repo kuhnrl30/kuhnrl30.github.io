@@ -1,14 +1,10 @@
 ---
-title: "Fantasy Football Analytics in R - Part II"
+title: "How to Test the Accuracy of Yahoo's Fantasy Football Predictions Using R"
 date: 2016-01-19
 layout: post
 comments: true
 tags: [Fantasy-Football, R]
 ---
-
-<meta itemprop="image" content="http://ryankuhn.net/images/SpreadChart-1.png.jpg"/>
-
-<meta itemprop="name" content="Testing the Accuracy of Yahoo Fantasy Football Predictions"/>
 
 ## Using the Yahoo Fantasy Sports API  
 This is the second post in a series performing analytics on my Yahoo Fantasy Football team using R. In the **[prior post](http://ryankuhn.net/blog/Fantasy-Football-in-R/)** I demonstrated how to connect to Yahoo Sports APIs. That post left off having connected to the API and pulled the standings for my league. I never discussed how I learned the league and game ID variables. Let's start by going through that process which will also help to understand the API structure of Collections and Resources. 

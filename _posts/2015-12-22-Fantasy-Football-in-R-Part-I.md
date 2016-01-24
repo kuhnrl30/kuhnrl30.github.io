@@ -1,15 +1,15 @@
 ---
-title: "Fantasy Football Analytics in R - Part I"
+title: "How to Connect to the Yahoo Fantasy Sports API Using R"
 date: 2015-12-22
 output: html_document
 layout: post
 comments: true
-tags: [R, FantasyFootball]
 ---
 
 
 
-## Connecting to the Yahoo Sports API with R  
+## Fantasy Football Analytics- Paert I  
+
 Fantasy sports can be fun. They are especially fun for data nerds like me who aren't necessarily sports fans. This is the first of several posts describing how to perform analytics on my Yahoo fantasy team using R. In this post I will demonstrate how to connect to the Yahoo Sports API, or Application Programing Interface, using the httr package.
 
 
