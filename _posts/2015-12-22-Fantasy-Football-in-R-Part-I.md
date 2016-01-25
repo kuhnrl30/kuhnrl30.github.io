@@ -8,7 +8,7 @@ comments: true
 
 
 
-## Fantasy Football Analytics- Paert I  
+## Fantasy Football Analytics- Part I  
 
 Fantasy sports can be fun. They are especially fun for data nerds like me who aren't necessarily sports fans. This is the first of several posts describing how to perform analytics on my Yahoo fantasy team using R. In this post I will demonstrate how to connect to the Yahoo Sports API, or Application Programing Interface, using the httr package.
 
