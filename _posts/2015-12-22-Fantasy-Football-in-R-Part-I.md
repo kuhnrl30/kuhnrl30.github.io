@@ -4,6 +4,7 @@ date: 2015-12-22
 output: html_document
 layout: post
 comments: true
+tags: [FantasyFootball, R]
 ---
 
 

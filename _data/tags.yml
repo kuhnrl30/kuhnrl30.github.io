@@ -5,7 +5,7 @@ VBA:
  name: VBA
  
 FantasyFootball:
- name: Fantasy Football
+ name: 'Fantasy Football'
  
 Python:
  name: Python
@@ -16,3 +16,5 @@ Octave:
 Northwind:
  name: Northwind
  
+DataScienceSpecialization:
+ name: Data Science Specialization

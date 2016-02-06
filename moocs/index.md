@@ -29,6 +29,7 @@ This specialization track covers the concepts and tools needed throughout the en
 - Statistical Inference, <a href="../certs/6 Statistical Inference.pdf" target="_blank">Verified Certificate</a>
 - Developing Data Products <a href="../certs/9 Developing Data Products.pdf" target="_blank">Verified Certificate</a>
 - Regression Models <a href="../certs/7 Regression Models.pdf" target="_blank">Verified Certificate</a>
+- Practical Machine Learning <a href="../certs/8 Practical Machine Learning.pdf" target ="_blank">Verified Certificate</a>
 
 
 ### Data Analytics
