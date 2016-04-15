@@ -147,7 +147,7 @@ contact: passive
 	</tr>
 	<tr>
 		<td><b>Objective: </b> </td>
-		<td> Evaluate the bank's credit approval decisions for ridk</td>
+		<td> Evaluate the bank's credit approval decisions for risk</td>
 	</tr>
 	<tr>
 		<td><b>Methods: </b></td>

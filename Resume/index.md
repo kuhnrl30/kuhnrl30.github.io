@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Resume
+title: Turning Data into Decisions - Resume
 Resume: active
 Projects: passive
 blog: passive
@@ -11,6 +11,7 @@ description: Resume for Ryan Kuhn, Finance Professional.
 
 ### SUMMARY OF EXPERIENCE  
 Experienced finance professional with strong technical, analytical and leadership skills. Broad exposure earned during military, audit, and sales finance experiences has resulted in strong interpersonal skills, learning agility, and a drive for results.  
+
 
 ### PROFESSIONAL CERTIFICATIONS  
 
@@ -28,7 +29,7 @@ Building financial models to evaluate deals and ensure they are profitable. Prov
 - Performed analytics on company-wide revenue write-offs for indigent patients and reported the results to internal audit. Result: The analysis was used to plan a 2-part audit of controls around the write-offs. Invited to **provide data systems and analytics support** for this audit.
 - Interviewed multiple finance groups as part of a project for the CFO to standardize the presentation and assumptions used to model deals across lines of business. Summarized the key similarities and differences in modeling approaches across finance groups and identified best practices. When completed, the **recommendations will drive consistency** across the organization and improve decisions to allocate resources.
 
-### INTERNAL AUDIT EXPERIENCE
+### AUDIT EXPERIENCE
 **Quest Diagnostics Inc** Lyndhurst, NJ November 2013 to December, 2015  
 Work collaboratively across all levels of the organization to perform varying types of reviews including operational, compliance, and financial audits.
 
@@ -49,7 +50,6 @@ Result: Management is kept informed of audit status and recommendations are pers
 - Contribute towards **special projects** within the department. 
 Projects include redesigning the year end performance evaluation criteria for staff and senior auditors.
 
-### CONTRACT AUDIT EXPERIENCE
 **Defense Contract Audit Agency** Morristown, NJ August, 2010 to November, 2013  
 Examine contractor accounting practices for compliance with Department of Defense procurement regulations to ensure taxpayer dollars are spent on reasonable contract prices. 
 
@@ -71,10 +71,10 @@ Result:  Developed a network with other agency offices to facilitate sharing bes
 - Instruct junior Marines in technical aspects of infantry field such as navigation, communication equipment, and first aid. 
 Result: Marines were ready for deployments and prepared to assume future leadership roles.
 
+
 ### EDUCATION
-**Rutgers, the State University of New Jersey** Newark, NJ Coursework Completed August, 2015  
-Masters of Accountancy- Financial Accounting, GPA 3.5  
+**Masters of Accountancy- Financial Accounting** 
+Rutgers, the State University of New Jersey
 
-**University of Wisconsin- Whitewater**, WI August, 2010  
-Bachelor of Business Administration – Accounting, GPA: 3.6
-
+**Bachelor of Business Administration – Accounting**
+University of Wisconsin- Whitewater 
