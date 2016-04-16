@@ -1,6 +1,6 @@
-name: Ryan Kuhn | Turning Data Into Decisions
+name: Ryan L. Kuhn | Turning Data Into Decisions
 url: http://ryankuhn.net
-author: Ryan Kuhn
+author: Ryan L. Kuhn
 description: Discussing how to turn data into decisions- from getting the data to performing the analysis.
 
 exclude: ["*.Rmd"]

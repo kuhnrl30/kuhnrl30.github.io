@@ -193,9 +193,9 @@ newdat<- dat %>%
          CumSum= cumsum(Cum)) %>%
   select(-N,-Cum)
 
-  a<- ggplot(newdat) 
+a<- ggplot(newdat) 
 a<- a + aes(x=no_pymnt, y=CumSum, group=term, colour=term)
-a<- a + geom_step(size=1.5)
+a<- a + geom_step(size=1.1)
 a<- a + labs(x="Months of Payments",
              y="% of Total Running Sum",
              title="Lending Club Loans- Number of Payments Before Default")
@@ -204,4 +204,31 @@ a<- a + scale_x_continuous(breaks=seq(0,65,5))
 a<- a + guides(colour=guide_legend(title="Loan Term"))
 a<- a + theme(panel.background=element_rect(fill="white"))
 a
+
+
+wdayplot<- dat %>%
+  mutate(wday= factor(weekdays(issue_d),levels=c("Sunday","Monday","Tuesday","Thursday"))) %>%
+  group_by(wday, Class) %>%
+    summarise(N= n(),
+              Ttl= sum(as.numeric(loan_amnt), na.rm=T),
+              Avg.Int= round(mean(int_rate, na.rm=T)*100,2)) %>%
+  mutate(PCT.Cnt= round(N/sum(N, na.rm=T)*100,digits=2),
+         Pct.Ttl= round(Ttl/sum(Ttl, na.rm=T)*100, digits=2)) %>%
+  filter(Class=="B") %>% 
+  arrange(wday)
+
+txt<- paste("Default Rate: ", wdayplot$PCT.Cnt, "%",
+                      "\nAvg Rate: ", wdayplot$Avg.Int,"%",
+                      sep="")
+b<- ggplot(wdayplot)
+b<- b + aes(x=wday, y=PCT.Cnt)
+b<- b + geom_bar(stat='identity', fill="dark red")
+b<- b + labs(x= "Weekday Issued",
+             y= "Percent of Loans Defaulted",
+             title= "Default Rate by Weekday Issued")
+b<- b + theme(panel.background=element_blank())
+b<- b + geom_text(aes(x=wday, y=PCT.Cnt, label=txt),
+                  vjust=-.3)
+b<- b + scale_y_continuous(limits=c(0,25))
+b
 </pre>
