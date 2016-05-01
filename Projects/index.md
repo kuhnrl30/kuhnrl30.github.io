@@ -8,13 +8,10 @@ moocs: passive
 contact: passive
 ---
 
-### Projects and Competitions  
-
 <style>
 	td { vertical-align: top; padding: 0px, 20px, 0px 0px; }
 </style>
 
-<hr>
 <div id='projects-nyt'>
 	<div style="float:left; margin=0;">
 	<img src="/images/projects-nyt.png" alt="Projects- NY Times" width="205" height="100" style="margin:0px 35px 0px 35px;">
@@ -225,4 +222,4 @@ contact: passive
 	</tr>
 	</table>
 </div>
-<hr>
+<br>
