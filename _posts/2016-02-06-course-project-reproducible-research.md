@@ -4,9 +4,7 @@ output: html_document
 layout: post
 date: 2016-02-06
 comments: true
-tags: 
-- R
-- DataScienceSpecialization
+tags: [R, DataScienceSpecialization]
 ---
 
 ### Course Project for Reproducible Research   
@@ -61,7 +59,7 @@ hist(TTL.by.Day$steps,
      col="red")
 ```
 
-![plot of chunk unnamed-chunk-3](/images/unnamed-chunk-3-1.png) 
+![plot of chunk ReproResearch1](/images/ReproResearch1-1.png)
 
 This shows a clear peak at the 10K - 15K step bin.  The data looks normally distributed but we'll calculate the mean and median steps per day to verify. They mean and median values are pretty close so we can accept our assumption.
 
@@ -87,7 +85,7 @@ axis(side=1, at=seq(0,2400,by=100))
 axis(side=2, at=seq(0,225,by=25))
 ```
 
-![plot of chunk unnamed-chunk-5](/images/unnamed-chunk-5-1.png) 
+![plot of chunk ReproResearch2](/images/ReproResearch2-1.png)
 
 There is a clear spike at around 8am but which interval is the actual maximum?  The which.max() function can be used in the row index to return the interval to answer that question: 8:35am.
 
@@ -133,7 +131,7 @@ xyplot(steps~interval|which,
        layout=c(1,2),scales=list(x=list(limits=c(0,2400),tick.number=10)))
 ```
 
-![plot of chunk unnamed-chunk-9](/images/unnamed-chunk-9-1.png) 
+![plot of chunk ReproResearch3](/images/ReproResearch3-1.png)
 
 ### Comparing Weekday and Weekend Activity
 The last step of this analysis is to determine if there is a difference between he activity levels on the weekend.  First, we'll use create a factor to indicate the day as weekday or weekend.  The $wday name of POSIXlt is zero indexed so it returns a value 0-6 with Sunday as 0 and Saturday as 6. We'll use the aggregate function again to calculate the means and then we'll draw the plots.
@@ -150,6 +148,6 @@ xyplot(steps~interval|factor(Weekday),data=Split.Avg,type="l",
        scales=list(x=list(limits=c(0,2400),tick.number=10)))
 ```
 
-![plot of chunk unnamed-chunk-10](/images/unnamed-chunk-10-1.png) 
+![plot of chunk unnamed-chunk-7](/images/unnamed-chunk-7-1.png)
 
 In comparing the plots, we can see that the general activity patterns fairly different. The weekend activity levels are much higher throughout the day whereas the weekday activity level has a dramatic spike between 8 and 9am.  In both charts there is nearly no activity until 5am.  These patterns seem reasonable because people are generally sleeping so not moving in the morning and on weekdays may go to the gym in the morning before sitting at their desk for the rest of the day.  On weekends, people are off of work so are free to move about all day.
