@@ -3,6 +3,7 @@ title: "Writing Functions in VBA"
 date: 2015-11-29
 layout: post
 comments: true
+htmlwidgets: false
 tags:
 - VBA
 ---

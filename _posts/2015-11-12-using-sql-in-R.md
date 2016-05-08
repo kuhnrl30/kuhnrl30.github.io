@@ -2,6 +2,7 @@
 title: "How to Use SQL in R"
 date: 2015-11-12
 layout: post
+htmlwidgets: false
 comments: true
 tags:
 - R

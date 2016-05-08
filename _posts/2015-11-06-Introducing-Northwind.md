@@ -3,6 +3,7 @@ title: "Introducing the Northwind package"
 date: 2015-11-06
 layout: post
 comments: true
+htmlwidgets: false
 tags:
 - R
 - Northwind

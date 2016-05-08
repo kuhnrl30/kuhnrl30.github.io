@@ -2,6 +2,7 @@
 title: "How to Connect to the Yahoo Fantasy Sports API Using R"
 date: 2015-12-22
 output: html_document
+htmlwidgets: false
 layout: post
 comments: true
 tags: [FantasyFootball, R]

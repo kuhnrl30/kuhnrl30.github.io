@@ -3,6 +3,7 @@ layout: post
 title: "How to Setup Notepad++ as an IDE"
 date: 2015-09-18
 comments: true
+htmlwidgets: false
 tags:
 - R
 - Python

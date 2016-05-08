@@ -3,6 +3,7 @@ title: "How to Test the Accuracy of Yahoo's Fantasy Football Predictions Using R
 date: 2016-01-19
 layout: post
 comments: true
+htmlwidgets: false
 tags: [FantasyFootball, R]
 ---
 

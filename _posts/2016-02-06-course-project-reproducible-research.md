@@ -2,6 +2,7 @@
 title: 'Analyzing Activity Tracker Data'
 output: html_document
 layout: post
+htmlwidgets: false
 date: 2016-02-06
 comments: true
 tags: [R, DataScienceSpecialization]

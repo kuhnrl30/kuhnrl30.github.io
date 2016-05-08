@@ -2,6 +2,7 @@
 title: "Reducing Your Risk in Peer-2-Peer Loans"
 output: html_document
 layout: post
+htmlwidgets: false
 date: 'April 15, 2016'
 comment: true
 tags: [P2PLending]
