@@ -9,18 +9,20 @@ contact: passive
 description: Resume for Ryan Kuhn, Finance Professional.
 ---
 
-### SUMMARY OF EXPERIENCE  
+### Summary of Experience  
 Experienced finance professional with strong technical, analytical and leadership skills. Broad exposure earned during military, audit, and sales finance experiences has resulted in strong interpersonal skills, learning agility, and a drive for results.  
 
 
-### PROFESSIONAL CERTIFICATIONS  
+### Certifications   
 
-Certified Public Accountant (CPA), State of New Jersey September, 2013  
+- Certified Public Accountant (CPA), State of New Jersey September, 2013  
+- Certified Management Accountant (CMA) August, 2012  
 
-Certified Management Accountant (CMA) August, 2012  
+### Senior Financial Analyst  
 
-### FINANCE EXPERIENCE  
-**Quest Diagnostics Inc** Madison, NJ November 2013 to Present  
+Quest Diagnostics Inc  
+Madison, NJ  
+November 2013 to Present  
 Building financial models to evaluate deals and ensure they are profitable. Provide financial insights to account executives to maximize the value from the deal. 
 
 - **Developed dashboard reporting** of strategic pricing initiatives which was delivered to senior executives. Result: Management received actionable insights on success rates enabling them to control the sales team’s activities.  
@@ -29,8 +31,10 @@ Building financial models to evaluate deals and ensure they are profitable. Prov
 - Performed analytics on company-wide revenue write-offs for indigent patients and reported the results to internal audit. Result: The analysis was used to plan a 2-part audit of controls around the write-offs. Invited to **provide data systems and analytics support** for this audit.
 - Interviewed multiple finance groups as part of a project for the CFO to standardize the presentation and assumptions used to model deals across lines of business. Summarized the key similarities and differences in modeling approaches across finance groups and identified best practices. When completed, the **recommendations will drive consistency** across the organization and improve decisions to allocate resources.
 
-### AUDIT EXPERIENCE
-**Quest Diagnostics Inc** Lyndhurst, NJ November 2013 to December, 2015  
+### Senior Internal Auditor
+Quest Diagnostics Inc  
+Lyndhurst, NJ  
+November 2013 to December, 2015  
 Work collaboratively across all levels of the organization to perform varying types of reviews including operational, compliance, and financial audits.
 
 - **Lead a team** of auditing an international sales unit for compliance with Foreign Corrupt Practices Act. 
@@ -50,7 +54,10 @@ Result: Management is kept informed of audit status and recommendations are pers
 - Contribute towards **special projects** within the department. 
 Projects include redesigning the year end performance evaluation criteria for staff and senior auditors.
 
-**Defense Contract Audit Agency** Morristown, NJ August, 2010 to November, 2013  
+### Senior Auditor  
+Defense Contract Audit Agency  
+Morristown, NJ  
+August, 2010 to November, 2013   
 Examine contractor accounting practices for compliance with Department of Defense procurement regulations to ensure taxpayer dollars are spent on reasonable contract prices. 
 
 - **Lead a team of auditors** in large and complex assignments. 
@@ -64,8 +71,9 @@ Result: These procedures are now regularly incorporated in the audit plans to pr
 - Responsible for **special projects** such as coordinating audit approaches with other audit offices, aggregating and reporting cost data from multiple contractor locations, and researching auditing standards. 
 Result:  Developed a network with other agency offices to facilitate sharing best practices.    
 
-### MILITARY EXPERIENCE
-**U.S. Marine Corps Reserve** Madison, WI & Al-Anbar, Iraq June, 2002 - July, 2009
+### U.S. Marine Corps Reserve
+Madison, WI & Al-Anbar, Iraq  
+June, 2002 - July, 2009
 
 - Lead a 12 man squad in combat operations.  
 - Instruct junior Marines in technical aspects of infantry field such as navigation, communication equipment, and first aid. 
@@ -73,8 +81,8 @@ Result: Marines were ready for deployments and prepared to assume future leaders
 
 
 ### EDUCATION
-**Masters of Accountancy- Financial Accounting** 
+- **Masters of Accountancy- Financial Accounting**  
 Rutgers, the State University of New Jersey
 
-**Bachelor of Business Administration – Accounting**
+- **Bachelor of Business Administration – Accounting**  
 University of Wisconsin- Whitewater 
