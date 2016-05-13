@@ -34,7 +34,5 @@ layout: default
 </div>
 
 <!-- htmlwidgets dependencies --> 
-{% if page.htmlwidgets %}
-{% assign dep_file = page.url | split: '/' | last | prepend : 'htmlwidgets/' | append : '.html' %}
-{% include {{dep_file}} %}
-{% endif %}
+{% include htmlwidgets/Home-Depot-Competition-Conclusion.html %}
+{% include htmlwidgets/How-To-Use-Plotly-With-Jekyll.html %}
