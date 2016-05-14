@@ -34,7 +34,7 @@ layout: default
 </div>
 
 <!-- htmlwidgets dependencies --> 
-<script src="{{ "/htmlwidgets_deps/htmlwidgets-0.6/htmlwidgets.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/htmlwidgets_deps/plotlyjs-1.6.1/plotly-latest.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/htmlwidgets_deps/plotly-binding-3.4.1/plotly.js" | prepend: site.baseurl }}"></script>
+{% if page.htmlwidgets %}
+{% include htmlwidget_deps.html %}
+{% endif %}
 
