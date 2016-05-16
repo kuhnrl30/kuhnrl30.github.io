@@ -8,6 +8,10 @@ permalink: /blog/:title
 markdown: kramdown
 kramdown:
   input: GFM
-
 encoding: utf-8
 highlighter: rouge
+excerpt_separator: "<!--more-->"
+
+gems:
+  - jekyll-sitemap
+ 

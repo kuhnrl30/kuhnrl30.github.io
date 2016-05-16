@@ -47,7 +47,7 @@ h3 {max-width:200px;}
 		<table>
 					{% for post in site.posts %}
 					<tr>
-						<td><span>{{ post.date | date_to_string }}</span></td>
+						<td col><span>{{ post.date | date_to_string }}</span></td>
 						<td style="width: 500px; padding-left: 10px"> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
 					</tr>
 					{% endfor %}
