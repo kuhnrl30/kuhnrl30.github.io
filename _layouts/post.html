@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<html itemscope itemtype="http://schema.org/Blog" lang="en">
+<html itemscope itemtype="http://schema.org/BlogPosting" lang="en">
 
 {% assign post = page %}
 {% if post.tags.size > 0 %}
@@ -21,10 +21,11 @@ layout: default
 
 
 
-<h1>{{ page.title }}</h1>
+<h1 itemprop="headline">{{ page.title }}</h1>
+<meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
+<div class="post" itemprop="articleBody">
 
   {{ content }}
   

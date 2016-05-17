@@ -6,7 +6,7 @@ Projects: passive
 blog: active
 MOOCs: passive
 contact: passive
-description: Massive Open Online Courses completed by Ryan Kuhn, Finance Professional.
+description: Keep up with Ryan Kuhn's tangential mind by reading his blog
 ---
 
 <style>
@@ -41,17 +41,21 @@ h3 {max-width:200px;}
 	</li>
 </ul>
 
+<div itemscope="" itemtype="http://schema.org/Blog">
 <ul>
 	<li>
 		<h3>Blog Posts</h3>  
 		<table>
 					{% for post in site.posts %}
 					<tr>
+						<article itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
 						<td col><span>{{ post.date | date_to_string }}</span></td>
-						<td style="width: 500px; padding-left: 10px"> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+						<td style="width: 500px; padding-left: 10px"> <a href="{{ post.url }}" itemprop="url" title="{{ post.title }}"><span itemprop="name">{{ post.title }}</span></a></td>
+						<meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
+						</article>
 					</tr>
 					{% endfor %}
 		</table>
 	</li>
 </ul>
-
+</div>
