@@ -50,8 +50,8 @@ h3 {max-width:200px;}
 					{% for post in site.posts %}
 					<tr>
 						<article itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
-						<td col><span itemprop="datePublished">{{ post.date | date_to_string }}</span></td>
-						<td style="width: 500px; padding-left: 10px"> <a href="{{ post.url }}" itemprop="url" title="{{ post.title }}"><span itemprop="name">{{ post.title }}</span></a></td>
+						<td col><time itemprop="datePublished" datetime="{{ post.date |date: '%Y-%m-%d'}}">{{ post.date | date_to_string }}</time></td>
+						<td style="width: 500px; padding-left: 10px"> <a itemprop="url" href="{{ post.url }}" title="{{ post.title }}"><span itemprop="name">{{ post.title }}</span></a></td>
 						<meta itemprop="headine" content="{{post.title]]"/>
 						<meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
 						<meta itemprop="author" content="Ryan Kuhn" />
