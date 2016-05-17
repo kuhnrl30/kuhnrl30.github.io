@@ -42,6 +42,7 @@ h3 {max-width:200px;}
 </ul>
 
 <div itemscope="" itemtype="http://schema.org/Blog">
+<link rel="canonical" href="http://ryankuhn.net/blog/">
 <ul>
 	<li>
 		<h3>Blog Posts</h3>  
@@ -49,9 +50,12 @@ h3 {max-width:200px;}
 					{% for post in site.posts %}
 					<tr>
 						<article itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
-						<td col><span>{{ post.date | date_to_string }}</span></td>
+						<td col><span itemprop="datePublished">{{ post.date | date_to_string }}</span></td>
 						<td style="width: 500px; padding-left: 10px"> <a href="{{ post.url }}" itemprop="url" title="{{ post.title }}"><span itemprop="name">{{ post.title }}</span></a></td>
+						<meta itemprop="headine" content="{{post.title]]"/>
 						<meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
+						<meta itemprop="author" content="Ryan Kuhn" />
+						<meta itemprop="image" src="images/RyanKuhn.jpg"/>
 						</article>
 					</tr>
 					{% endfor %}
