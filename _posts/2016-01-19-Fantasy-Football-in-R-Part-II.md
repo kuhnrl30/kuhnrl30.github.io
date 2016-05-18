@@ -5,6 +5,7 @@ layout: post
 comments: true
 htmlwidgets: false
 tags: [FantasyFootball, R]
+description: "Using the API to compare the projected weekly points to the actual points. The results are very interesting!"
 ---
 
 ## Using the Yahoo Fantasy Sports API  

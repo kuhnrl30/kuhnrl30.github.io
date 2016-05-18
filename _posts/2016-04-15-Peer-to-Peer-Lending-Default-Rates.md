@@ -6,6 +6,7 @@ htmlwidgets: false
 date: 'April 15, 2016'
 comment: true
 tags: [P2PLending]
+description: "Looking at how many payments are made on bad loans before they default and how the default rates differ dramatically by day of the week."
 ---
 
 ## Analyzing Defaulted Loans to Reduce Downside Risk

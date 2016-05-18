@@ -6,6 +6,7 @@ htmlwidgets: false
 date: 2016-02-06
 comments: true
 tags: [R, DataScienceSpecialization]
+description: "Course project for the Reproducible Research course of the Data Science Specialization"
 ---
 
 ### Course Project for Reproducible Research   

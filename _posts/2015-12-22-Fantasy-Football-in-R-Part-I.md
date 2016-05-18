@@ -6,6 +6,7 @@ htmlwidgets: false
 layout: post
 comments: true
 tags: [FantasyFootball, R]
+description: "How to connect to the Yahoo sports API with R and get the standings from my league"
 ---
 
 

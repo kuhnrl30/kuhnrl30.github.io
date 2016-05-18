@@ -4,6 +4,7 @@ date: 2015-11-29
 layout: post
 comments: true
 htmlwidgets: false
+description: "Gentle introduction on how to write a simple function in VBA to avoid messy nested formulas"
 tags:
 - VBA
 ---
