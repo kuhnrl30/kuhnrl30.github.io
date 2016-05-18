@@ -9,57 +9,41 @@ contact: passive
 description: Keep up with Ryan Kuhn's tangential mind by reading his blog
 ---
 
-<style>
-table { 
-    border-collapse: collapse;
-}
+<link href="/css/blogindex.css" rel="stylesheet">
 
-td {
-    vertical-align: top;
-}
-
-th {
-	vertical-align: bottom;
-}
-
-ul {list-style-type: none;
-	padding: 0;
-	margin: 0;
-	vertical-align: top;}
-li { display: inline-block;}
-
-h3 {max-width:200px;}
-</style>
-
-<ul style="float:right;">
-	<li>
-		<h3>Links</h3>
-			<table>
-				<tr><td><a href= "/blog/tag/" title="Blog Tags"> Posts By Tag</a></td></tr>
-				<tr><td><a href="http://www.r-bloggers.com" title="R-Bloggers"> R-Bloggers</a></td></tr>
-			</table>
-	</li>
+<ul id="sidebar" >
+  <li>
+    <h3>Links</h3>
+    <table>
+      <tr><td><a href= "/blog/tag/" title="Blog Tags"> Posts By Tag</a></td></tr>
+      <tr><td><a href="http://www.r-bloggers.com" title="R-Bloggers"> R-Bloggers</a></td></tr>
+    </table>
+  </li>
 </ul>
 
-<div itemscope="" itemtype="http://schema.org/Blog">
+<div itemscope itemtype="http://schema.org/Blog">
 <link rel="canonical" href="http://ryankuhn.net/blog/">
-<ul>
-	<li>
-		<h3>Blog Posts</h3>  
-		<table>
-					{% for post in site.posts %}
-					<tr>
-						<article itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
-						<td col><time itemprop="datePublished" datetime="{{ post.date |date: '%Y-%m-%d'}}">{{ post.date | date_to_string }}</time></td>
-						<td style="width: 500px; padding-left: 10px"> <a itemprop="url" href="{{ post.url }}" title="{{ post.title }}"><span itemprop="name">{{ post.title }}</span></a></td>
-						<meta itemprop="headine" content="{{post.title]]"/>
-						<meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
-						<meta itemprop="author" content="Ryan Kuhn" />
-						<meta itemprop="image" src="images/RyanKuhn.jpg"/>
-						</article>
-					</tr>
-					{% endfor %}
-		</table>
-	</li>
-</ul>
+<meta itemprop="author" content="Ryan Kuhn" />
 </div>
+
+
+<ul>
+  <li>
+    <h3>Blog Posts</h3>  
+    <table>
+      {% for post in site.posts %}
+		<tr itemscope itemtype="http://schema.org/Article">
+            <td col><meta itemprop="datePublished" content="{{post.date | date: '%Y-%m-%d'}}">{{ post.date | date_to_string}}</td>
+            <td style="width: 500px; padding-left: 10px"> <span itemprop="name headline"><a href="{{ post.url }}">{{ post.title }}</a>
+            <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
+            <meta itemprop="Description" content="{{post.description}}"/>
+			<meta itemprop="mainEntityofPage" content="http://ryankuhn.net/blog/">
+            <meta itemprop="author publisher" content="Ryan Kuhn" itemtype="http://schema.org/Person" />
+    	    <meta itemprop="name" content="Ryan Kuhn"/> 
+			</td>
+        </tr>        
+     {% endfor %}
+    </table>
+  </li>
+</ul>
+
