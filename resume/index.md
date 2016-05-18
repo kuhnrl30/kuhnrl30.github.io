@@ -25,9 +25,9 @@ Madison, NJ
 November 2013 to Present  
 Building financial models to evaluate deals and ensure they are profitable. Provide financial insights to account executives to maximize the value from the deal. 
 
-- **Developed dashboard reporting** of strategic pricing initiatives which was delivered to senior executives. Result: Management received actionable insights on success rates enabling them to control the sales teamâ€™s activities.  
+- **Developed dashboard reporting** of strategic pricing initiatives which was delivered to senior executives. Result: Management received actionable insights on success rates enabling them to control the sales team’s activities.  
 - Deconstructed cost assumptions used in financial models and repopulated them with actual spend data. **Coordinated with a cross-functional team** to understand changes in the cost structure after several major reorganizations. Result: Health plan deals will be based on the most current and accurate information.
-- **Developed a database application** to manage current health plan negotiations. Result: The application eliminates 4 hours of manual reporting effort each month through automation and enables ad-hoc analyses by putting the information at the analystâ€™s fingertips.  
+- **Developed a database application** to manage current health plan negotiations. Result: The application eliminates 4 hours of manual reporting effort each month through automation and enables ad-hoc analyses by putting the information at the analyst’s fingertips.  
 - Performed analytics on company-wide revenue write-offs for indigent patients and reported the results to internal audit. Result: The analysis was used to plan a 2-part audit of controls around the write-offs. Invited to **provide data systems and analytics support** for this audit.
 - Interviewed multiple finance groups as part of a project for the CFO to standardize the presentation and assumptions used to model deals across lines of business. Summarized the key similarities and differences in modeling approaches across finance groups and identified best practices. When completed, the **recommendations will drive consistency** across the organization and improve decisions to allocate resources.
 
@@ -84,5 +84,5 @@ Result: Marines were ready for deployments and prepared to assume future leaders
 - **Masters of Accountancy- Financial Accounting**  
 Rutgers, the State University of New Jersey
 
-- **Bachelor of Business Administration â€“ Accounting**  
+- **Bachelor of Business Administration – Accounting**  
 University of Wisconsin- Whitewater 
