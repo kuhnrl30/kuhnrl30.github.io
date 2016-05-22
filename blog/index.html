@@ -31,16 +31,16 @@ description: Keep up with Ryan Kuhn's tangential mind by reading his blog
   <li>
     <h3>Blog Posts</h3>  
     <table>
-      {% for post in site.posts %}
-		<tr itemscope itemtype="http://schema.org/Article">
-            <td col><meta itemprop="datePublished" content="{{post.date | date: '%Y-%m-%d'}}">{{ post.date | date_to_string}}</td>
-            <td style="width: 500px; padding-left: 10px"> <span itemprop="name headline"><a href="{{ post.url }}">{{ post.title }}</a>
-            <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
-            <meta itemprop="Description" content="{{post.description}}"/>
-			<meta itemprop="mainEntityofPage" content="http://ryankuhn.net/blog/">
-            <meta itemprop="author publisher" content="Ryan Kuhn" itemtype="http://schema.org/Person" />
-    	    <meta itemprop="name" content="Ryan Kuhn"/> 
-			</td>
+      {% for post in site.categories.blog %}
+        <tr itemscope itemtype="http://schema.org/Article">
+          <td col><meta itemprop="datePublished" content="{{post.date | date: '%Y-%m-%d'}}">{{ post.date | date: '%b %d, %Y'}}</td>
+          <td style="width: 500px; padding-left: 10px"> <span itemprop="name headline"><a href="{{ post.url }}">{{ post.title }}</a>
+          <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
+          <meta itemprop="Description" content="{{post.description}}"/>
+          <meta itemprop="mainEntityofPage" content="http://ryankuhn.net/blog/">
+          <meta itemprop="author publisher" content="Ryan Kuhn" itemtype="http://schema.org/Person" />
+    	  <meta itemprop="name" content="Ryan Kuhn"/> 
+          </td>
         </tr>        
      {% endfor %}
     </table>

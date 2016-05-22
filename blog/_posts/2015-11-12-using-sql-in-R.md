@@ -30,7 +30,7 @@ The SELECT query is the most common application of SQL in business intelligence.
 
 >**A few recommendations**  
 > 
->1. Form your SQL statement as a string variable and then pass the string to the sqldf function. By doing this, you are able to more clearly organize your query statement.It;ll be easier to debug if there are any issues. 
+>1. Form your SQL statement as a string variable and then pass the string to the sqldf function. By doing this, you are able to more clearly organize your query statement. 
 >2. Make your SQL clauses all caps. The SQLDF package isn't case sensitive towards the clauses and I think it makes the statement pick out where the next clause begins.
 > 
 

@@ -6,7 +6,7 @@ Projects: passive
 blog: passive
 moocs: passive
 contact: passive
-description: Resume for Ryan Kuhn, Finance Professional.
+description: "View Ryan Kuhn's professional experience, qualifications and education"
 ---
 
 ### Summary of Experience  

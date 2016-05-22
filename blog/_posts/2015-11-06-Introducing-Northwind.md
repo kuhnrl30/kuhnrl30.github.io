@@ -11,7 +11,7 @@ tags:
 
 ## Datasets from a business information system
 
-Northwind is a new package with datasets from the well-known Northwind database. The datasets consist of relational tables that are perfect for demonstrating the sqldf package or business analytics techniques. After one too many R tutorials using the Iris dataset I decided we needed an alternative. I decided this would be how I'd make my first R package. You can download the package like this:
+Northwind is a new package with datasets from the well-known Northwind database. The datasets consist of relational tables that are perfect for demonstrating the sqldf package or business analytics techniques. After one too many R tutorials using the Iris dataset I decided we needed an alternative and this would be how I'd make my first R package. You can download the package like this:
 
 
 ```r
