@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<html itemscope itemtype="http://schema.org/BlogPosting" lang="en">
-
 {% assign post = page %}
 {% if post.tags.size > 0 %}
   {% capture tags_content %}Posted with {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
@@ -20,7 +18,7 @@ layout: default
 
 
 
-
+<html itemscope itemtype="http://schema.org/BlogPosting" lang="en">
 <h1 itemprop="headline">{{ page.title }}</h1>
 <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
 <link rel="author" href="https://plus.google.com/+RyanKuhnCPA"/>
