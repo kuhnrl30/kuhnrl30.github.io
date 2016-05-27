@@ -9,15 +9,21 @@ contact: passive
 description: "View Ryan Kuhn's professional experience, qualifications and education"
 ---
 
+
 ### Summary of Experience  
 Experienced finance professional with strong technical, analytical and leadership skills. Broad exposure earned during military, audit, and sales finance experiences has resulted in strong interpersonal skills, learning agility, and a drive for results.  
 
+<div style="float: right;">
+          <a href="https://ima.proexamvault.com/badges/1cfd65d0-5c3e-48ef-9717-72ba33498b2a">
+            <img src="/images/CMABadge.png" alt="Certified Management Accountant issued by IMA/CMA to Ryan L. Kuhn" />
+          </a>
+</div>
 
 ### Certifications   
 
 - Certified Public Accountant (CPA), State of New Jersey September, 2013  
 - Certified Management Accountant (CMA) August, 2012  
-
+		  
 ### Senior Financial Analyst  
 
 Quest Diagnostics Inc  

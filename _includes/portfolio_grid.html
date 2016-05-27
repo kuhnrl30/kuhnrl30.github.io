@@ -12,13 +12,9 @@
 	{% for post in site.categories.projects %}
       <div class="col-sm-4 portfolio-item">
         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">	
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
-          </div>	
           <img src="/images/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
         </a>
+        <h5 align="center" >{{post.title}}</h5>		
       </div>
 	  {% endfor %}
 	</div>
