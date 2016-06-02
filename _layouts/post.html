@@ -18,20 +18,22 @@ layout: default
 
 
 
-<html itemscope itemtype="http://schema.org/BlogPosting" lang="en">
-<h1 itemprop="headline">{{ page.title }}</h1>
-<meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
-<link rel="author" href="https://plus.google.com/+RyanKuhnCPA"/>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div itemscope itemtype="http://schema.org/Article" lang="en">
+  <h1 itemprop="name headline">{{ page.title }}</h1>
+  <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+  <meta itemprop="author publisher" content="Ryan Kuhn" itemtype="http://schema.org/Person"/>
+  <meta itemprop="mainEntityofPage" content="http://ryankuhn.net/blog/">
+  <meta itemprop="datePublished dateModified" content="{{post.date | date: '%Y-%m-%d'}}">
+  <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post" itemprop="articleBody">
-{{ content }} 
-<p id="post-meta">{{ tags_content }}</p>
+  <div class="post" itemprop="articleBody">
+  {{ content }} 
+  <p id="post-meta">{{ tags_content }}</p>
  
-  {% include _social.html %}
-  {% include comments.html %}
+    {% include _social.html %}
+    {% include comments.html %}
+  </div>
 </div>
-
 <!-- htmlwidgets dependencies --> 
 {% if page.htmlwidgets %}
 {% for html_dep in site.static_files %}

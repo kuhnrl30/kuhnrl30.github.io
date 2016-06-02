@@ -5,6 +5,25 @@ date: 2015-08-16
 comments: true
 htmlwidgets: false
 ---
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Thing",
+    "name": "Big Data Applications and Analytics"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Ryan Kuhn"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "6",
+    "bestRating": "10"
+  }
+}
+</script>
 
 **tl;dr:** 
 It is best to approach this course like standalone textbook rather than a MOOC. 
