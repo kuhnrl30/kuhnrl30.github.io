@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: script
 title: NJ Employee Salary Shiny App code
 Resume: passive
 Projects: passive

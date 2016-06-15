@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: script
 title: Predicting Sales in Stormy Weather R Code
 Resume: passive
 Projects: passive

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: script
 title: NY Times Blog Success R Code
 Resume: passive
 Projects: passive

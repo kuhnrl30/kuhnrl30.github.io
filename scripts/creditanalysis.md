@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: script
 title: Credit Analysis R Code
 Resume: passive
 Projects: passive

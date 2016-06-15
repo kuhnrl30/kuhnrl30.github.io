@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: script
 title: Titanic Python Code
 Resume: passive
 Projects: passive

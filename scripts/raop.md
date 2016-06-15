@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: script
 title: Random Acts of Pizza R Code
 Resume: passive
 Projects: passive

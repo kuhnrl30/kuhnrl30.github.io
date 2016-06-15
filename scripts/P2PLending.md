@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: script
 title: Peer-2-Peering Loan Default R Code
 Resume: passive
 Projects: passive

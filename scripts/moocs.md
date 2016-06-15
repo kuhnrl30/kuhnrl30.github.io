@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: script
 title: Predicting Success in Moocs R Code
 Resume: passive
 Projects: passive

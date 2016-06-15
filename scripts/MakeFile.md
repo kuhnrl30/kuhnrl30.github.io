@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: script
 title: Blog Make File
 Resume: passive
 Projects: passive

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: script
 title: Home Depot Search Relevancy
 Resume: passive
 Projects: passive

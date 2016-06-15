@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: script
 title: Africa Soil Property R Code
 Resume: passive
 Projects: passive

@@ -8,7 +8,9 @@ moocs: passive
 contact: passive
 description: "View Ryan Kuhn's professional experience, qualifications and education"
 ---
-
+<div style="float:right;">
+<a class="btn btn-default" target="_blank" href="Ryan Kuhn Resume-2016-Finance.pdf">Download Resume</a>
+</div> 
 
 ### Summary of Experience  
 Experienced finance professional with strong technical, analytical and leadership skills. Broad exposure earned during military, audit, and sales finance experiences has resulted in strong interpersonal skills, learning agility, and a drive for results.  
@@ -21,14 +23,14 @@ Experienced finance professional with strong technical, analytical and leadershi
 
 ### Certifications   
 
-- Certified Public Accountant (CPA), State of New Jersey September, 2013  
+- Certified Public Accountant (CPA) September, 2013  
 - Certified Management Accountant (CMA) August, 2012  
 		  
 ### Senior Financial Analyst  
 
 Quest Diagnostics Inc  
 Madison, NJ  
-November 2013 to Present  
+2014 - Present  
 Building financial models to evaluate deals and ensure they are profitable. Provide financial insights to account executives to maximize the value from the deal. 
 
 - **Developed dashboard reporting** of strategic pricing initiatives which was delivered to senior executives. Result: Management received actionable insights on success rates enabling them to control the sales team's activities.  
@@ -40,8 +42,8 @@ Building financial models to evaluate deals and ensure they are profitable. Prov
 ### Senior Internal Auditor
 Quest Diagnostics Inc  
 Lyndhurst, NJ  
-November 2013 to December, 2015  
-Work collaboratively across all levels of the organization to perform varying types of reviews including operational, compliance, and financial audits.
+2013 - 2014  
+Work with all levels of the organization to perform operational and compliance reviews and financial audits.
 
 - **Lead a team** of auditing an international sales unit for compliance with Foreign Corrupt Practices Act. 
 Assigned roles to the audit team members and managed to audit through completion. 
@@ -60,10 +62,10 @@ Result: Management is kept informed of audit status and recommendations are pers
 - Contribute towards **special projects** within the department. 
 Projects include redesigning the year end performance evaluation criteria for staff and senior auditors.
 
-### Senior Auditor  
+### Senior Contract Auditor  
 Defense Contract Audit Agency  
 Morristown, NJ  
-August, 2010 to November, 2013   
+2010 - 2013  
 Examine contractor accounting practices for compliance with Department of Defense procurement regulations to ensure taxpayer dollars are spent on reasonable contract prices. 
 
 - **Lead a team of auditors** in large and complex assignments. 
@@ -79,7 +81,7 @@ Result:  Developed a network with other agency offices to facilitate sharing bes
 
 ### U.S. Marine Corps Reserve
 Madison, WI & Al-Anbar, Iraq  
-June, 2002 - July, 2009
+2002 - 2009
 
 - Lead a 12 man squad in combat operations.  
 - Instruct junior Marines in technical aspects of infantry field such as navigation, communication equipment, and first aid. 
