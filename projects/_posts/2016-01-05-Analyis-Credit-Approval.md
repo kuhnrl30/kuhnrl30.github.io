@@ -8,6 +8,7 @@ methods: Association Rules, Regression, CART
 script: creditanalysis.html
 language: R
 title: Analyzing Credit Approval Decisions
+git: https://github.com/kuhnrl30/CreditAnalysis
 ---
 
 <b>Objective: </b>  

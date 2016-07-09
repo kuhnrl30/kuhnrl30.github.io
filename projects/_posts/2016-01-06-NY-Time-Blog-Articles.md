@@ -8,6 +8,7 @@ title: "NY Times Blog Articles"
 language: R
 script: nytimes.html
 methods: Text analytics, logistic regression
+git: https://github.com/kuhnrl30/NYTimes
 ---
 
 <b>Objective: </b>  

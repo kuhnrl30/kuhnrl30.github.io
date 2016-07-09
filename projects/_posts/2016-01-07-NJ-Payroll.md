@@ -9,6 +9,7 @@ title: NY State Employee Salaries
 language: R
 script: NJSalary.html
 methods: CSS, HTML
+git: https://github.com/kuhnrl30/NJPayroll
 ---
 
 Check out the <a href="https://kuhnrl30.shinyapps.io/ShinyProject" target="_blank">Shiny app</a>!

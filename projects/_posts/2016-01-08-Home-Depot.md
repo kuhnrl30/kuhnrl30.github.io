@@ -9,6 +9,7 @@ script: HomeDepot.html
 language: R
 methods: XGBoost, Logistic Regression, SVM
 title: Home Depot Search Relevancy
+git: https://github.com/kuhnrl30/HomeDepot
 ---
 
 <b>Objective: </b>

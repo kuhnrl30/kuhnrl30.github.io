@@ -7,6 +7,7 @@ platform: Kaggle
 methods: Rapid model development
 script: walmartsales.html
 language: R
+git: https://github.com/kuhnrl30/Walmart
 ---
 
 <b>Objective: </b>  

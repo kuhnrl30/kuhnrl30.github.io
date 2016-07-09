@@ -7,6 +7,7 @@ platform: KDD Cup
 methods: Parallel processing
 language: R
 script: moocs.html
+git: https://github.com/kuhnrl30/MOOCs
 ---
 
 <b>Objective: </b> 
