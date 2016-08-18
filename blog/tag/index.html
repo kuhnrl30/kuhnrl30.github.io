@@ -15,7 +15,7 @@ contact: passive
 <div class="clearfix mxn1 mt3">
   {% for tag in sortedtags %}	
     <div class="col px1 mb1">
-      <a href="{{ tag }}" class="button button-narrow button-outline dark-gray h5">{{ tag }} ({{ site.tags[tag].size }})</a>
+      <a href="{{ tag }}" class="button button-narrow button-outline dark-gray h5">{{ site.data.tags[tag].name }} ({{ site.tags[tag].size }})</a>
     </div>
   {% endfor %}
 </div>

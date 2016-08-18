@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>{{ page.tag }}</h1>
+<h1>{{ site.data.tags[page.tag].name }}</h1>
 <div>
     {% if site.tags[page.tag] %}
         {% for post in site.tags[page.tag] %}
