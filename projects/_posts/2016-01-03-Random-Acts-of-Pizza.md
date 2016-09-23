@@ -11,4 +11,4 @@ git: https://github.com/kuhnrl30/RandomActsofPizza
 ---
 
 <b>Objective: </b> 
-Reddit hosted a program allowing people to ask for free pizza and other people to buy it for them. Not everyone will get free pizza. The objective of this competition was to develop a model and understand what features will lead to a successful request.
+Reddit hosted a program allowing people to ask for free pizza and other people to buy it for them. Not everyone will get free pizza. The objective of this competition was to develop a model and understand what features will lead to a successful request.  I've wrapped this analysis into a package and used vignettes to document my workflow.  You can find instructions for downloading the package using the Github link above.

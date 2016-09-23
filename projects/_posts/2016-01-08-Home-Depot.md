@@ -4,7 +4,6 @@ modal-id: 8
 alt: Home Depot
 img: projects-homedepot.png
 platform: Kaggle
-methods: Regular Expression, Regression
 script: HomeDepot.html
 language: R
 methods: XGBoost, Logistic Regression, SVM

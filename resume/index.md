@@ -26,11 +26,17 @@ Experienced finance professional with strong technical, analytical and leadershi
 - Certified Public Accountant (CPA) September, 2013  
 - Certified Management Accountant (CMA) August, 2012  
 		  
-### Senior Financial Analyst  
+### Senior Financial Analyst
+Ortho Clinical Diagnostics  
+Raritan, NJ  
+2016 - Present  
+Consolidate worldwide operations reporting and prepare annual forecasts. 
 
+
+### Senior Financial Analyst  
 Quest Diagnostics Inc  
 Madison, NJ  
-2014 - Present  
+2014 - 2016 
 Building financial models to evaluate deals and ensure they are profitable. Provide financial insights to account executives to maximize the value from the deal. 
 
 - **Developed dashboard reporting** of strategic pricing initiatives which was delivered to senior executives. Result: Management received actionable insights on success rates enabling them to control the sales team's activities.  
