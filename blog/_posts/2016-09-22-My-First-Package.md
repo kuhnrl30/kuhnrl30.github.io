@@ -13,4 +13,4 @@ description: "Celebrating a milestone in my R career- submitting a package to CR
 
 CRAN is the Comprehensive R Archive Network where R packages are available for everyone to download. I've built packages before but was never confident enough to publish them beyond GitHub. Well that changed tonight, and after a few weeks of development and documentation I finally submitted the LendingClub package.  I should hear back in a few days if its accepted.  
 
-You can learn more about the package from my [last post](www.ryankuhn.net/blog/introducing-LendingClub-package) or by visiting the [repo](www.github.com/kuhnrl30/LendingClub).
+You can learn more about the package from my [this post](/blog/introducing-LendingClub-package) or by visiting [GitHub](www.github.com/kuhnrl30/LendingClub).
