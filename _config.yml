@@ -15,3 +15,4 @@ excerpt_separator: "<!--more-->"
 gems:
   - jekyll-sitemap
  
+ host: 0.0.0.0
