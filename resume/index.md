@@ -94,7 +94,7 @@ Madison, WI & Al-Anbar, Iraq
 Result: Marines were ready for deployments and prepared to assume future leadership roles.
 
 
-### EDUCATION
+### Education
 - **Masters of Accountancy- Financial Accounting**  
 Rutgers, the State University of New Jersey
 

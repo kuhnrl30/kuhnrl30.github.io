@@ -1,3 +1,12 @@
+body{
+	height: 100%
+}
+
+#row {
+	position: relative:
+	min-height: 100%;
+	}
+
 table { 
     border-collapse: collapse;
 }
@@ -15,7 +24,20 @@ ul {list-style-type: none;
 	margin: 0;
 	vertical-align: top;}
 
+	
 
-#sidebar {float:right;}
+
 
 h3 {max-width:200px;}
+
+
+@media (min-width: 768px){
+	#sidebar {
+		float:right;
+		position: relative;
+	}	
+	
+	#blogposts{
+		display: inline;
+		}
+	}

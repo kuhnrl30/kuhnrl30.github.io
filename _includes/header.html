@@ -1,11 +1,27 @@
-<div class="header">
- <ul class="nav nav-pills pull-right">
-  <a href="/resume" title="Resume">Resume</a>
-  <a href="/projects" title="Projects">Projects</a>
-  <a href="/blog" title="Blog">Blog</a>
-  <a href="/moocs" title="MOOCS">Moocs</a>
-  <a href="/contact" title="Contact">Contact</a>
- </ul>
- <h3 class="text-muted"><a href="/">Ryan L. Kuhn, CPA</a></h3>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav header") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav header";
+    }
+}
+</script>
+
+<div>
+
+ <ul class="topnav header" id="myTopnav">
+ <h3 id="titleline" class="text-muted"><a href="/">Ryan L. Kuhn, CPA</a></h3>
+  <li><a href="/contact" title="Contact">Contact</a></li>
+  <li><a href="/moocs" title="MOOCS">Moocs</a></li>
+  <li><a href="/blog" title="Blog">Blog</a></li>
+  <li><a href="/projects" title="Projects">Projects</a></li>
+  <li><a href="/resume" title="Resume">Resume</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+
 </div>
 <!-- /header -->
