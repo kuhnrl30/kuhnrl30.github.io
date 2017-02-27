@@ -9,7 +9,7 @@ contact: passive
 description: "View Ryan Kuhn's professional experience, qualifications and education"
 ---
 <div style="float:right;">
-<a class="btn btn-default" target="_blank" href="Ryan Kuhn Resume-2016-Finance.pdf">Download Resume</a>
+<a class="btn btn-default" target="_blank" href="Ryan Kuhn Resume-2017-Finance.pdf">Download Resume</a>
 </div> 
 
 ### Summary of Experience  
@@ -30,8 +30,14 @@ Experienced finance professional with strong technical, analytical and leadershi
 Ortho Clinical Diagnostics  
 Raritan, NJ  
 2016 - Present  
-Consolidate worldwide operations reporting and prepare annual forecasts. 
-
+Provide financial leadership to worldwide operations; support consolidations with insight and analytical support.
+<div class="hidden-sm-down">  
+	<ul>
+		<li>Provide financial leadership during the AOP and interim forecasts by driving analysis of the underlying assumptions.  Consolidate inputs across three plants and 5 functions.  Result: Consolidated AOP decks were concisely summarized and the commentary clearly highlighted the changes in year over year spending.</li>
+		<li><b>Interface with FP&A and Controllership</b> to address emerging issues and to represent Operations Finance to the corporate functions.  Bridge between tactical reporting at the plants and the strategic reporting needs of the CFO.  Result: Publish reporting that is grounded in detailed analysis summarized for senior management.</li>
+		<li><b>Manage the monthly close</b> process including coordinating reporting requirements and improving data accuracy. Introduced forward looking analysis into management reporting to enable better decision making. Result: Reduced the close cycle by 2 days enabling senior leadership to receive monthly results sooner and allow finance to direct resources towards other value added activities.</li>
+	</ul>
+</div>
 
 ### Senior Financial Analyst  
 Quest Diagnostics Inc  
@@ -58,10 +64,8 @@ Work with all levels of the organization to perform operational and compliance r
 	<li><b>Lead a team</b> of auditing an international sales unit for compliance with Foreign Corrupt Practices Act. Assigned roles to the audit team members and managed to audit through completion. Result: The audit was performed with minimal interruption to sales operations. </li>
 	<li>Participate in audits of new processes or areas without prior audit coverage such as Supplier Diversity, Revenue Analytics, and non-standard processes at a joint venture. 
 	<b>Determine the audit scope and procedures</b> which enable a comprehensive review. Results: Documentation will form the framework for future audits and enable repeatable evaluations of the critical controls.</li>
-	<li>Integrate data from multiple sources and apply <b>advanced analytics and data mining techniques</b> including association rules, clustering, and correlation tests to evaluate the expense data. Direct detailed invoice testing efforts towards areas or transactions most likely to have errors. Result:  The engagement required 4 fewer auditors to complete than comparable audits.</li>
-	<li><b>Used automation to reduced the administrative effort</b> in reviewing travel and entertainment expenses. The template automated the expense selection process allowing the team to focus on value added actions. Result: The annual travel and entertainment audit was issued several weeks earlier than prior years.</li>
 	<li>Summarize and <b>present audit results to senior management</b> and stakeholders. Result: Management is kept informed of audit status and recommendations are persuasive and understood by the recipient.</li>
-	<li>Contribute towards <b>special projects</b> within the department. Projects include redesigning the year end performance evaluation criteria for staff and senior auditors.</li>
+	<li><b>Selected from amongst peers</b> to redesign the year end performance evaluation criteria for staff and senior auditors.  Combined best practices from large audit firms, departmental strategic objectives, and guidance from the Institute of Internal Auditors.  Result: Translated the department strategy into individual objectives and built consensus on how success will measured during performance reviews.</li>
 	</ul>
 </div>
 
@@ -72,8 +76,7 @@ Morristown, NJ
 Examine contractor accounting practices for compliance with Department of Defense procurement regulations to ensure taxpayer dollars are spent on reasonable contract prices. 
 <div class="hidden-sm-down">  
 <ul>
-	<li><b>Lead a team of auditors</b> in large and complex assignments. Result: Effective engagement planning to align audit procedures with customer expectations resulted in a 60% cycle time reduction.   </li>
-	<li>Use audit techniques such as interviews, inspecting documents, as well as <b>quantitative methods such as regression analysis and statistical sampling</b>. Complete audit programs and prepare workpapers in accordance with Generally Accepted Government Auditing Standards (GAGAS).  </li>
+	<li><b>Lead a team of auditors</b> in large and complex assignments. Result: Effective engagement planning to align audit procedures with customer expectations resulted in a 60% cycle time reduction.</li>
 	<li>Prepare audit reports to <b>clearly present results</b> in accordance with defined audit program steps by streamlining the report to focus discussion with stakeholders on recommendations. Result: Reports are now 30% shorter, with concise summary findings and recommendations.</li>
 	<li><b>Develop team competencies</b> through informal training sessions in statistical sampling and regression analysis. Result: These procedures are now regularly incorporated in the audit plans to provide reliable support for recommendations.</li>
 	<li>Responsible for <b>special projects</b> such as coordinating audit approaches with other audit offices, aggregating and reporting cost data from multiple contractor locations, and researching auditing standards. Result:  Developed a network with other agency offices to facilitate sharing best practices.</li>
