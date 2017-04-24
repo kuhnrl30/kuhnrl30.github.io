@@ -24,6 +24,7 @@
   alt: Analysis of Credit Approval Data  
   objective: A capstone project for grad school. Applying various analytical techniques in a case study of a lender's underwriting model with the intent of determining if credit is extended based on risk.   
 - name: LabCorp
+  link: http://ryankuhn.net/LabCorp
   language: R
   img: ~
   github: LabCorp
