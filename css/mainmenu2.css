@@ -1,9 +1,8 @@
-.navbar-toggle .icon-bar {
-    background-color: #563d7c;
-}
-
 .col-centered{
     float: none;
     margin: 0 auto;
 }
 
+.navbar-toggle .icon-bar {
+    background-color: #563d7c;
+}

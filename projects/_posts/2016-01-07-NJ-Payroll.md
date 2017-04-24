@@ -10,6 +10,8 @@ language: R
 script: NJSalary.html
 methods: CSS, HTML
 git: https://github.com/kuhnrl30/NJPayroll
+link: https://kuhnrl30.shinyapps.io/ShinyProject
+objective: Use Shiny to create a web application and use it to present a data anslysis. My application allows you to compare your salary to the salaries of NJ State employees. This introduction to Shiny was the course project from the Data Science Specialization. Check out the <a href="https://kuhnrl30.shinyapps.io/ShinyProject" target="_blank">Shiny app</a>!
 ---
 
 Check out the <a href="https://kuhnrl30.shinyapps.io/ShinyProject" target="_blank">Shiny app</a>!

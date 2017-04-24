@@ -1,0 +1,42 @@
+- name: NJ Payroll
+  link: https://kuhnrl30.shinyapps.io/ShinyProject
+  github: NJPayroll
+  intro: Course project to compare your salary to NJ state employees
+  type: Shiny App
+- name: Northwind
+  github: Northwind
+  link: http://ryankuhn.net/Northwind
+  type: R package
+  intro: Data tables useful for demonstrating SQL
+- name: Home Depot
+  github: HomeDepot
+  type: Competition
+  intro: Improving rhe quality of product search results
+- name: NY Times
+  github: NYTimes
+  type: Competition
+  intro: Predict whether NY Times blog posts will be successful
+- name: Ortho
+  github: Ortho
+  type: R Package
+  intro: Formatting extracts from the SAP ledger system
+- name: DGX
+  github: DGX
+  type: R Package
+  intro: Formatting extracts from the data warehouse
+- name: Moocs
+  github: Moocs
+  type: Competition
+  intro: Pedict which particiants will dropout from MOOCs
+- name: Walmart
+  github: Walmart
+  type: Competition
+  intro: Predict sales after weather events
+- name: Africa Soil
+  github: AfricaSoil  
+  type: Competition
+  intro: Infer key soil properties given other attributes
+- name: Titanic
+  github: Titanic
+  type: Competition
+  intro: Competiion to predict which passengers survived

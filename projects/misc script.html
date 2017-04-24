@@ -1,0 +1,37 @@
+
+<div class ="comtainer">
+	<div id="row">
+	<div class="col-lg-10 col-md-10" itemscope itemtype="http://schema.org/Blog">
+		<link rel="canonical" href="http://ryankuhn.net/projects/">
+		<meta itemprop="author" content="Ryan Kuhn" />
+		  {% for proj in site.categories.projects %}
+			<div itemscope itemtype="http://schema.org/Article">
+				<h4><a href="{{ proj.link }}">{{ proj.title }}</a></h4>
+				<a href="{{ proj.git }}"><span class="fa fa-github"></span></a>
+				<br>
+				<span>{{ proj.objective }}</span>
+				<meta itemprop="name headline" content="{{ proj.title }}"/>
+				<meta itemprop="datePublished" content="{{proj.date | date: '%Y-%m-%d'}}"/>
+				<meta itemprop="keywords" content="{{ proj.tags | join: ',' }}" />
+				<meta itemprop="Description" content="{{proj.description}}"/>
+				<meta itemprop="mainEntityofPage" content="http://ryankuhn.net/projects/">
+				<meta itemprop="author publisher" content="Ryan Kuhn" itemtype="http://schema.org/Person" />
+				<meta itemprop="name" content="Ryan Kuhn"/>         
+			</div>
+		 {% endfor %}
+	</div>
+</div>
+</div>
+
+
+<ul>
+{% for member in site.data.majorprojects %}
+  <li>
+    <a href="https://github.com/kuhnrl30/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+<hr>

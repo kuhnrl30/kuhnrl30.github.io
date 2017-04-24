@@ -1,0 +1,24 @@
+
+<style>
+.card{
+	width: 20rem;
+	border: 1px solid #eee;
+	}
+</style>
+
+<div class="row flex-grid">
+{% for proj in site.data.minorprojects %}
+	<div class="card col-lg-4">
+	  <div class="card-block">
+		<h4 class="card-title">{{ proj.name }}</h4>
+		<p class="card-text">{{ proj.intro }}</p>
+ 		{% if proj.link %}
+			<a href="(( proj.link ))" class="btn btn-primary">Project Page</a>
+		{% else %}
+			<a href="(( proj.url ))" class="btn btn-primary">Github</a>
+		{% endif %}
+		<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+	  </div>
+	</div>
+{% endfor %}
+</div>

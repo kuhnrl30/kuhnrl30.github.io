@@ -1,0 +1,31 @@
+- name: Lending Club
+  methods: API wrapper
+  img: projects-lendingclub.png
+  alt: Lending Club
+  link: http://ryankuhn.net/LendingClub
+  github: LendingClub
+  objective: 'Maximizing peer-to-peer lending returns using data science. The project is organized in three R packages: <ol><li> Set of functions with bindings to the Lending Club API</li><li>An exploratory analysis and (eventually) a predictive model</li> <li>Finally, the third component will be a Shiny App applying the model predictions with live results</li></ol>'
+- name: Random Acts of Pizza
+  platform: Kaggle
+  methods: Classification and Regression Tree (CART)
+  language: R
+  img: projects-raop.png
+  alt: image-alt
+  link: http://ryankuhn.net/RandomActsofPizza
+  github: RandomActsofPizza  
+  objective: Reddit hosted a program allowing people to ask others to buy them pizza. Not everyone will get free pizza. The objective of this competition was to develop a model and understand what features will lead to a successful request.  I've wrapped this analysis into a package and used vignettes to document my workflow.  
+- name: Analyzing Credit Approval Decisions
+  link: http://ryankuhn.net/CreditAnalysis
+  img: projects-Rutgers.png
+  platform: grad school
+  methods: Assocaition rule, Regression, CART
+  language: R
+  github: CreditAnalysis
+  alt: Analysis of Credit Approval Data  
+  objective: A capstone project for grad school. Applying various analytical techniques in a case study of a lender's underwriting model with the intent of determining if credit is extended based on risk.   
+- name: LabCorp
+  language: R
+  img: ~
+  github: LabCorp
+  objective: Creating a database of service locations by scraping the LabCorp website. These locations were useful in portraying Quest Diagnostic's value proposition over its largest competitor. 
+

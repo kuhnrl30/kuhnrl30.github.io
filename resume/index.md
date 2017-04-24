@@ -33,9 +33,9 @@ Raritan, NJ
 Provide financial leadership to worldwide operations; support consolidations with insight and analytical support.
 <div class="hidden-sm-down">  
 	<ul>
-		<li>Provide financial leadership during the AOP and interim forecasts by driving analysis of the underlying assumptions.  Consolidate inputs across three plants and 5 functions.  Result: Consolidated AOP decks were concisely summarized and the commentary clearly highlighted the changes in year over year spending.</li>
-		<li><b>Interface with FP&A and Controllership</b> to address emerging issues and to represent Operations Finance to the corporate functions.  Bridge between tactical reporting at the plants and the strategic reporting needs of the CFO.  Result: Publish reporting that is grounded in detailed analysis summarized for senior management.</li>
-		<li><b>Manage the monthly close</b> process including coordinating reporting requirements and improving data accuracy. Introduced forward looking analysis into management reporting to enable better decision making. Result: Reduced the close cycle by 2 days enabling senior leadership to receive monthly results sooner and allow finance to direct resources towards other value added activities.</li>
+		<li><b>Provide financial leadership</b> by driving analysis of the underlying assumptions during the AOP and interim forecasts. Result: Summarized business drivers and provided actionable insights to finance leadership.</li>
+		<li><b>Interface with FP&A and Controllership</b> to address emerging issues and ensure accurate reporting.  Aligned plant reporting with corporate functions using the new consolidations system (BPC).  Result: Restored the integrity of reported results enabling the monthly reviews to focus on business results.</li>
+		<li><b>Manage the monthly close process</b> including coordinating reporting requirements and improving data accuracy. Introduced forward looking analysis into management reporting to enable better decision making. Result: Reduced the close cycle by two days enabling senior leadership to receive monthly results sooner and allow finance to direct resources towards other value added activities.</li>
 	</ul>
 </div>
 
