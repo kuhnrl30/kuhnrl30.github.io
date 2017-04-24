@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: default
 Resume: passive
 Projects: active
 blog: passive
