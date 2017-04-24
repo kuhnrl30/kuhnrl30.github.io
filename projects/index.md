@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default	
 Resume: passive
 Projects: active
 blog: passive
@@ -46,7 +46,7 @@ These projects are a mix of my work in machine learning competitions or course p
         <article  data-url="{{ proj.url }}" class="col-lg-6 col-md-6 col-sm-12 panel panel-default major-proj-card" itemscope="itemscope" itemtype="http://schema.org/Article" >
 			<h4 itemprop="name"><a href="{{ proj.link }}">{{ proj.name }}</a></h4>
 			<p class="description">{{ proj.objective }}</p>
-			<a href="(( proj.link ))" class="btn btn-default btn-xs col-sm-6 col-lg-6 proj-btn">Project Page</a>
+			<a href="{{ proj.link }}" class="btn btn-default btn-xs col-sm-6 col-lg-6 proj-btn">Project Page</a>
         </article>
     {% endfor %}
 	</div>
