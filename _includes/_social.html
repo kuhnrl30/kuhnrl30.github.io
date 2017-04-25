@@ -1,16 +1,43 @@
- <a href="https://twitter.com/share" class="twitter-share-button" data-via="ryankuhncpa">Tweet</a>
+<!------------------- Twitter cards ------------------------------->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@RyanKuhnCPA">
+<meta name="twitter:creator" content="@RyanKuhnCPA">
+<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+<meta name="twitter:creator" content="@RyanKuhnCPA">
 
-<!-- Put this just before the closing body tag -->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}">
+{% else %}
+  <meta name="twitter:title" content="{{ site.title }}">
+{% endif %}
 
-<!-- Google + -->
-<g:plusone size="medium"></g:plusone>
+{% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
 
-<!-- Add this just before the closing body tag of your web page -->	
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
+
+
+<!------------------- google search results ------------------------------->
+<div itemscope itemtype="http://schema.org/Article" lang="en">
+<meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+<meta itemprop="author publisher" content="Ryan Kuhn" itemtype="http://schema.org/Person"/>
+<meta itemprop="mainEntityofPage" content="http://ryankuhn.net/blog/">
+<meta itemprop="datePublished dateModified" content="{{post.date | date: '%Y-%m-%d'}}">
+
+<!------------------ Open Graph ------------------------------------------> 
+<meta property="og:type" content="blog" />
+{% if page.title %}
+	<meta property="og:title" content="{{ page.title }}" />
+{% else %}
+	<meta property="og:title" content="{{ site.title }}" />
+{% endif %}
+
+{% if page.desc %}
+	<meta property="og:description" content="{{ page.desc }}" />
+{% endif %}
+
+{% if page.date %}
+  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+{% endif %}
