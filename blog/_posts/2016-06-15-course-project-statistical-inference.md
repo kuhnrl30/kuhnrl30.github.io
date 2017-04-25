@@ -6,6 +6,7 @@ date: 'June 15, 2016'
 comments: true
 tags: [R, DataScienceSpecialization]
 htmlwidgets: false
+description: Analysis for the Statistics Inference course
 ---
 
 ## Objective  

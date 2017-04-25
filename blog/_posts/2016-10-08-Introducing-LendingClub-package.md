@@ -7,6 +7,7 @@ date: "October 8, 2016"
 htmlwidgets: false
 comments: true
 tags: [R, P2PLending]
+description: Introducing the LendingClub R Package
 ---
 
 

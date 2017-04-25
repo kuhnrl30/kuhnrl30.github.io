@@ -6,6 +6,7 @@ date: 'February 12, 2017'
 comments: true
 tags: [R, P2PLending]
 htmlwidgets: false
+description: Creating a Shapefile to Visualize Lending Club Data by Region
 ---
 
 ## Creating a Shapefile to Visualize Lending Club Data by Region

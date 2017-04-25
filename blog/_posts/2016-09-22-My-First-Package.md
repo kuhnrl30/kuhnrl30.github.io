@@ -6,7 +6,7 @@ date: 'Sept 22, 2016'
 comments: TRUE
 tags: [R, P2PLending]
 htmlwidgets: false
-description: "Celebrating a milestone in my R career- submitting a package to CRAN"
+description: Celebrating a milestone - submitting my first R package to CRAN
 ---
 
 #### I'm taking a moment to celebrate this victory: I submitted my first package to CRAN.  
