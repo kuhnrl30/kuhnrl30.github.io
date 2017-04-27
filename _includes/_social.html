@@ -5,6 +5,7 @@
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 <meta name="twitter:creator" content="@RyanKuhnCPA">
 
+
 {% if page.title %}
   <meta name="twitter:title" content="{{ page.title }}">
 {% else %}
@@ -17,14 +18,6 @@
   <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
 
-
-
-<!------------------- google search results ------------------------------->
-<div itemscope itemtype="http://schema.org/Article" lang="en">
-<meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
-<meta itemprop="author publisher" content="Ryan Kuhn" itemtype="http://schema.org/Person"/>
-<meta itemprop="mainEntityofPage" content="http://ryankuhn.net/blog/">
-<meta itemprop="datePublished dateModified" content="{{post.date | date: '%Y-%m-%d'}}">
 
 
 
@@ -42,4 +35,8 @@
 
 {% if page.date %}
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+{% endif %}
+
+{% if page.url %}
+  <meta content="{{ page.url }}" property="og:url">
 {% endif %}

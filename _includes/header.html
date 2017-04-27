@@ -1,27 +1,27 @@
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav header") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav header";
-    }
-}
-</script>
-
-<nav class="navbar">
-
- <ul class="topnav header nav navbar-nav" id="myTopnav">
- <h3 id="titleline" class="text-muted"><a href="/">Ryan L. Kuhn, CPA</a></h3>
-  <li><a href="/contact" title="Contact">Contact</a></li>
-  <li><a href="/moocs" title="MOOCS">Moocs</a></li>
-  <li><a href="/blog" title="Blog">Blog</a></li>
-  <li><a href="/projects" title="Projects">Projects</a></li>
-  <li><a href="/resume" title="Resume">Resume</a></li>
-  <li class="icon">
-    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a>
-  </li>
-</ul>
-
-</nav>
-<!-- /header -->
+<header>
+<div class="navbar navbar-static-top" role="navigation">
+  <div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand" href="/">Ryan Kuhn, CPA</a>
+	</div>
+	<div id="navbar" class="navbar-collapse collapse pull-right">
+	  <ul class="nav navbar-nav navbar-right">
+		 <li><a href="/resume" title="Resume">Resume</a></li>
+		 <li><a href="/projects" title="Projects">Projects</a></li>
+		 <li><a href="/blog" title="Blog">Blog</a></li>
+		 <li><a href="/moocs" title="MOOCS">Moocs</a></li>
+		 <li><a href="/contact" title="Contact">Contact</a></li>    
+	  </ul>
+	</div>
+<!--/.nav-collapse -->
+  </div>
+<!--/.container -->
+</div>
+<!--/.navbar -->
+</header>
+<hr>

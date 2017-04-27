@@ -1,5 +1,5 @@
 ---
-title: "Introducing the LendingClub Package"
+title: Introducing the LendingClub Package
 author: "Ryan Kuhn"
 output:  html_document
 layout: post

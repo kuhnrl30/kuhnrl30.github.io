@@ -2,13 +2,12 @@
 <html>
 {% include head.html %}	
  <body>
-   {% include header2.html %}	
 	<div class="container">	  
-  {{ content }}
-   {% include footer.html %}
-  </div> <!-- /container -->
-		
- {% include analytics.html %}
-		
+		{% include header.html %}	
+		<div class="row">{{ content }}</div>
+		{% include footer.html %}
+	</div> <!-- /container -->
+	{% include googlesearch.html %}
+	{% include analytics.html %}		
  </body>
 </html>

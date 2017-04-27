@@ -1,5 +1,5 @@
 ---
-title: "Plotting the Lending Club Geographic Regions"
+title: Plotting the Lending Club Geographic Regions
 output: html_document
 layout: post
 date: 'February 12, 2017'
