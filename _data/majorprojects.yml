@@ -4,7 +4,7 @@
   alt: Lending Club
   link: http://ryankuhn.net/LendingClub
   github: LendingClub
-  objective: 'Maximizing peer-to-peer lending returns using data science. The project is organized in three R packages: <ol><li> Set of functions with bindings to the Lending Club API</li><li>An exploratory analysis and (eventually) a predictive model</li> <li>Finally, the third component will be a Shiny App applying the model predictions with live results</li></ol>'
+  objective: 'Maximizing peer-to-peer lending returns using data science. The project is organized in three R packages: <ul><li> LendingClub: Set of functions with bindings to the API enabling data access and transacting via R.</li><li>LendingClubModel: An exploratory analysis and a predictive model (Work in progress) </li> <li>LendingClubAccess: Once the model is complete, the third component will be a Shiny App applying the insights to live results</li></ul>'
 - name: Random Acts of Pizza
   platform: Kaggle
   methods: Classification and Regression Tree (CART)
