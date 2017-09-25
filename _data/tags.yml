@@ -9,9 +9,6 @@ FantasyFootball:
  
 Python:
  name: Python
-
-Octave:
- name: Octave
  
 Northwind:
  name: Northwind
@@ -27,3 +24,6 @@ Kaggle:
   
 SQL:
   name: SQL
+ 
+data-viz:
+  name: Data Vizualization
