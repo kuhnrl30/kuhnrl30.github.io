@@ -13,6 +13,7 @@
   type: Competition
   intro: Improving rhe quality of product search results
 - name: NY Times
+  link: http://ryankuhn.net/NYTimes
   github: NYTimes
   type: Competition
   intro: Predict whether NY Times blog posts will be successful
