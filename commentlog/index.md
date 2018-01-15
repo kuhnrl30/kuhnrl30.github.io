@@ -23,7 +23,7 @@ layout: default
 
   gapi.comments.render('comments{{ forloop.index }}', {
     href: 'http://ryankuhn.net{{ post.url }}',
-    width: '624',
+    width: '624', 
     first_party_property: 'BLOGGER',
     view_type: 'FILTERED_POSTMOD'
     });
