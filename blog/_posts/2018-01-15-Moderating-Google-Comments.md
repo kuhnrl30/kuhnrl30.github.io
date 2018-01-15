@@ -86,7 +86,7 @@ At this stage we'll have several sections that look like they should have commen
 
 &lt;/script>
 
-</code>(% endraw %)</pre>
+</code>{% endraw %}</pre>
 
 
 ## [See it in action](http://ryankuhn.net/commentlog)  
