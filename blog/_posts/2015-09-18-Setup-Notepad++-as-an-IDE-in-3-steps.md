@@ -7,7 +7,6 @@ htmlwidgets: false
 tags:
 - R
 - Python
-- Octave
 ---
 
 Notepad++ is an incredibly powerful, open source text editor. Python is a versatile, open source programming language. It only makes sense to put the two together and the result will be a lightweight <img src="/images/npp_logo.png" alt="Notepad++" align="right" width="200" height="125" hspace="20"> Integrated Development Environment or IDE. Notepad++ (Npp) opens really quickly and offers code folding and syntax highlighting for many languages based on the file extension when you save your script. The quick startup is especially handy when you have to make a quick edit and you don't want to wait for Spyder or IDLE to open. You can use Notepad++ as an IDE for many languages which gives the advantage of a single consistent environment if you work with multiple languages. I'll show you examples of how I have it setup for Python, Octave, and R. I've been using Npp as an IDE since I started using Python and Matlab and I'm slowly transitioning my R scripts from RStudio. If I ever figure out how to use Knitr in Npp, then I'll have few reasons to stay with RStudio.

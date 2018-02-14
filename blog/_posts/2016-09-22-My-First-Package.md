@@ -2,7 +2,7 @@
 title: "Submitted My First Package to CRAN"
 output: html_document
 layout: post
-date: 'Sept 22, 2016'
+date: '2016-09-22'
 comments: TRUE
 tags: [R, P2PLending]
 htmlwidgets: false

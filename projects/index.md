@@ -58,9 +58,9 @@ These projects are a mix of my work in machine learning competitions or course p
 		<h4>{{ proj.name }}</h4>
 		<p class="description">{{ proj.intro }}</p>
 		{% if proj.link %}
-			<a href="(( proj.link ))" class="btn btn-default btn-xs col-sm-6 proj-btn">Project Page</a>
+			<a href="{{ proj.link }}" class="btn btn-default btn-xs col-sm-6 proj-btn">Project Page</a>
 		{% else %}
-			<a href="(( proj.url ))" class="btn btn-default btn-xs col-sm-6 proj-btn">Github</a>
+			<a href="http://github.com/kuhnrl30/{{ proj.github }}" class="btn btn-default btn-xs col-sm-6 proj-btn">Github</a>
 		{% endif %}
 		<p><small class="text-muted proj-type">{{ proj.type }}</small></p>
 	</div>

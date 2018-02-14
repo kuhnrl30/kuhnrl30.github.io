@@ -19,13 +19,21 @@ Experienced finance professional with strong technical, analytical and leadershi
           <a href="https://ima.proexamvault.com/badges/1cfd65d0-5c3e-48ef-9717-72ba33498b2a">
             <img src="/images/CMABadge.png" alt="Certified Management Accountant issued by IMA/CMA to Ryan L. Kuhn" />
           </a>
+	<a href="http://quickbooks.intuit.com/" title="QuickBooks Accounting Software" target="_blank">
+		<img src="https://plugin-qbo.intuit.com/brand/1.0.2/product-specific-brand/assets/quickbooks-accountant/QuickBooks-ProAdvisor-Program/Logos/1_Badge_Online_large.png" alt="QuickBooks Certified ProAdvisor - QuickBooks Online Certification" border="0" style= "width:80px;height:100px;"/>
+	</a>
+ </div>
+
+<div style="float: right;">
+
 </div>
 
 ### Certifications   
 
 - Certified Public Accountant (CPA) September, 2013  
 - Certified Management Accountant (CMA) August, 2012  
-		  
+- Certified QuickBooks ProAdvisor September, 2017		  
+
 ### Senior Financial Analyst
 Ortho Clinical Diagnostics  
 Raritan, NJ  
