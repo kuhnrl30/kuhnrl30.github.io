@@ -9,7 +9,7 @@ contact: passive
 description: "View Ryan Kuhn's professional experience, qualifications and education"
 ---
 <div style="float:right;">
-<a class="btn btn-default" target="_blank" href="Ryan Kuhn Resume-2017-Finance.pdf">Download Resume</a>
+<a class="btn btn-default" target="_blank" href="Ryan Kuhn Resume-2018-Finance v2.pdf">Download Resume</a>
 </div> 
 
 ### Summary of Experience  
