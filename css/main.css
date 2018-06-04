@@ -5,3 +5,6 @@ button.navbar-toggle {
 span.icon-bar {
 	background-color: #cccccc;
 	}
+
+.score { float: right;
+  }
