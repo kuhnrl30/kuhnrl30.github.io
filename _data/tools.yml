@@ -1,0 +1,28 @@
+- name: Excel (10+ years)
+  score: 5
+- name: Power Point (10+ years)
+  score: 5 
+- name: Access (5 years)
+  score: 5
+- name: BPC (2 years)
+  score: 5
+- name: SAP (2 years)
+  score: 4
+- name: RStudio (5 years)
+  score: 5
+- name: Windows (10+ years)
+  score: 5
+- name: TeamMate (1 year)
+  score: 3
+- name: Tableau
+  score: 3
+- name: Essbase (2 years)
+  score: 3
+- name: Hyperion (2 years)
+  score:  3
+- name: PeopleSoft (1 year)
+  score: 2
+- name: Git
+  score: 2
+- name: SharePoint
+  score: 3

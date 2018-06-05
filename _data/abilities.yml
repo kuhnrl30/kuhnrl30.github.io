@@ -1,0 +1,28 @@
+- name: Financial Modeling
+  score: 5
+- name: Strategic Planning
+  score: 5
+- name: Financial Analysis
+  score: 5
+- name: Data Analytics
+  score: 5
+- name: Cost Accounting
+  score: 5
+- name: Internal Controls
+  score: 5
+- name: Pricing Analysis
+  score: 4
+- name: Web Development
+  score: 2
+- name: R Programming
+  score: 5
+- name: VBA
+  score: 2
+- name: SQL
+  score: 2
+- name: Jekyll
+  score: 2
+- name: Statistical Sampling (Audit)
+  score: 3
+- name: Federal Acquistion Regulation (FAR)
+  score: 3
