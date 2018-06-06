@@ -21,7 +21,7 @@
 - name: SQL
   score: 2
 - name: Jekyll
-  score: 2
+  score: 3
 - name: Statistical Sampling (Audit)
   score: 3
 - name: Federal Acquistion Regulation (FAR)
