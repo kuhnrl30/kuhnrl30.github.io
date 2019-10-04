@@ -11,7 +11,7 @@
 - name: Home Depot
   github: HomeDepot
   type: Competition
-  intro: Improving rhe quality of product search results
+  intro: Improving the quality of product search results
 - name: NY Times
   link: http://ryankuhn.net/NYTimes
   github: NYTimes
@@ -25,7 +25,7 @@
   github: DGX
   type: R Package
   intro: Formatting extracts from the data warehouse
-- name: Moocs
+- name: MOOCs
   github: Moocs
   type: Competition
   intro: Pedict which particiants will dropout from MOOCs

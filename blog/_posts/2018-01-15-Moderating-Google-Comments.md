@@ -9,6 +9,8 @@ htmlwidgets: false
 description: "Moderating Google Comments in a Jekyll Blog"
 ---
 
+<h3>Update 10/03/2019: Google+ has shut been shut down. None of this is relevent anymore.</h3>
+
 
 ## Motivation 
 
@@ -89,7 +91,6 @@ At this stage we'll have several sections that look like they should have commen
 </code>{% endraw %}</pre>
 
 
-## [See it in action](http://ryankuhn.net/commentlog)  
 
 ## Conclusion  
 Admittedly a first pass attempt at creating a tool to monitor the comments being left on my blog.  It's not pretty. but it works for now.  For future development I'd like to be able to make the height dynamic or hide the section for a post if there aren't any comments.  I'm hoping other readers can push this approach a little further down the road towards a complete solution. 

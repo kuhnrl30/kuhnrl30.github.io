@@ -1,0 +1,21 @@
+[submodule "NYTimes"]
+	path = NYTimes
+	url = http://github.com/kuhnrl30/NYTimes
+[submodule "RandomActsofPizza"]
+	path = RandomActsofPizza
+	url = http://github.com/kuhnrl30/RandomActsofPizza
+[submodule "Walmart"]
+	path = Walmart
+	url = http://github.com/kuhnrl30/Walmart
+[submodule "Moocs"]
+	path = Moocs
+	url = http://github.com/kuhnrl30/Moocs
+[submodule "HomeDepot"]
+	path = HomeDepot
+	url = http://github.com/kuhnrl30/HomeDepot
+[submodule "AfricaSoil"]
+	path = AfricaSoil
+	url = http://github.com/kuhnrl30/AfricaSoil
+[submodule "Titanic"]
+	path = Titanic
+	url = http://github.com/kuhnrl30/Titanic
